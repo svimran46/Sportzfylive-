@@ -3,702 +3,295 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sportzfylive - Premium Sports Streaming Portal</title>
+    <title>Live Sports Hub</title>
+    
+    <!-- CSS: This section handles all the styling, colors, and layout -->
     <style>
-        /* UI UX Design Tokens & Theme Variables */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            -webkit-tap-highlight-color: transparent;
-        }
-
+        /* Color Palette & Base Settings */
         :root {
-            --bg-base: #06090f;
-            --bg-surface: #0f141c;
-            --bg-card: #171e2b;
-            --accent-sports: #22c55e; /* Vibrant Sports Neon Green */
-            --accent-hover: #16a34a;
-            --text-primary: #ffffff;
-            --text-secondary: #94a3b8;
-            --border-ui: #242f41;
-            --max-width: 1280px;
+            --bg-color: #0f172a;      /* Deep dark blue background */
+            --nav-bg: #020617;        /* Almost black for navbar */
+            --card-bg: #1e293b;       /* Slightly lighter dark blue for cards */
+            --accent: #e74c3c;        /* Live red accent */
+            --text-main: #f8fafc;     /* White text */
+            --text-muted: #94a3b8;    /* Grey text */
         }
 
         body {
-            background-color: var(--bg-base);
-            color: var(--text-primary);
-            line-height: 1.5;
-            padding-bottom: 60px; /* Space for mobile navigation bar */
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
         }
 
-        /* --- UI UX LAYOUT SYSTEM --- */
+        /* Navigation Bar */
         header {
-            background-color: var(--bg-surface);
-            border-bottom: 1px solid var(--border-ui);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-
-        .nav-container {
-            max-width: var(--max-width);
-            margin: 0 auto;
+            background-color: var(--nav-bg);
+            padding: 15px 40px;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 1.25rem 2rem;
+            border-bottom: 2px solid var(--accent);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
         }
 
         .logo {
-            font-size: 1.6rem;
-            font-weight: 800;
-            letter-spacing: -0.5px;
-            color: var(--text-primary);
+            font-size: 24px;
+            font-weight: 900;
             text-transform: uppercase;
+            letter-spacing: 1px;
         }
 
         .logo span {
-            color: var(--accent-sports);
+            color: var(--accent);
         }
 
-        .nav-menu {
-            display: flex;
-            list-style: none;
-            gap: 1rem;
-        }
-
-        .nav-link {
-            color: var(--text-secondary);
+        nav a {
+            color: var(--text-main);
             text-decoration: none;
+            margin-left: 20px;
             font-weight: 600;
-            font-size: 0.95rem;
-            padding: 0.6rem 1.1rem;
-            border-radius: 8px;
-            transition: all 0.25s ease;
-            cursor: pointer;
+            transition: color 0.3s;
         }
 
-        .nav-link:hover, .nav-link.active {
-            color: var(--text-primary);
-            background-color: var(--bg-card);
+        nav a:hover {
+            color: var(--accent);
         }
 
-        .nav-link.active {
-            box-shadow: inset 0 -2px 0 var(--accent-sports);
-            border-radius: 8px 8px 0 0;
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(to bottom, var(--nav-bg), var(--bg-color));
         }
 
-        main {
-            max-width: var(--max-width);
-            margin: 2.5rem auto;
-            padding: 0 2rem;
+        .hero h1 {
+            margin: 0;
+            font-size: 36px;
         }
 
-        .page-section {
-            display: none;
-            animation: fadeIn 0.4s ease forwards;
+        .hero p {
+            color: var(--text-muted);
+            margin-top: 10px;
+            font-size: 18px;
         }
 
-        .page-section.active-section {
-            display: block;
+        /* Main Content & Grid */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
         }
 
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(8px); }
-            to { opacity: 1; transform: translateY(0); }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
         }
 
-        /* --- UI COMPONENTS & DYNAMIC GRIDS --- */
-        .section-header {
+        /* Match Cards */
+        .card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid #334155;
+            transition: transform 0.2s, box-shadow 0.2s;
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 1.75rem;
+            flex-direction: column;
         }
 
-        .section-title {
-            font-size: 1.75rem;
-            font-weight: 700;
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+            border-color: var(--accent);
+        }
+
+        /* Placeholder image area if API doesn't provide a working image */
+        .card-img {
+            height: 160px;
+            background: #334155 url('https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80') center/cover;
+            position: relative;
         }
 
         .live-indicator {
-            background-color: #ef4444;
-            color: #fff;
-            font-size: 0.75rem;
-            padding: 0.25rem 0.6rem;
-            border-radius: 6px;
-            text-transform: uppercase;
-            font-weight: 700;
-            letter-spacing: 0.5px;
-            animation: pulse-glow 2s infinite;
-        }
-
-        @keyframes pulse-glow {
-            0% { opacity: 1; box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.4); }
-            50% { opacity: 0.6; box-shadow: 0 0 0 8px rgba(239, 68, 68, 0); }
-            100% { opacity: 1; box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
-        }
-
-        .grid-layout {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
-            gap: 1.75rem;
-        }
-
-        /* Responsive Card Styling */
-        .sport-card {
-            background-color: var(--bg-surface);
-            border: 1px solid var(--border-ui);
-            border-radius: 14px;
-            overflow: hidden;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            cursor: pointer;
-        }
-
-        .sport-card:hover {
-            transform: translateY(-4px);
-            border-color: var(--accent-sports);
-            box-shadow: 0 12px 24px -10px rgba(6, 9, 15, 0.8);
-        }
-
-        .card-thumb {
-            width: 100%;
-            height: 170px;
-            background: linear-gradient(45deg, var(--bg-card), var(--bg-surface));
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--text-secondary);
-            font-weight: 600;
-            font-size: 1.1rem;
-            border-bottom: 1px solid var(--border-ui);
-        }
-
-        .card-info {
-            padding: 1.25rem;
-        }
-
-        .card-tag {
-            color: var(--accent-sports);
-            font-size: 0.8rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            margin-bottom: 0.5rem;
-            display: inline-block;
-        }
-
-        .card-title {
-            font-size: 1.05rem;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-            color: var(--text-primary);
-        }
-
-        .card-meta {
-            color: var(--text-secondary);
-            font-size: 0.85rem;
-        }
-
-        /* Button Ecosystem */
-        .action-btn {
-            background-color: var(--accent-sports);
-            color: var(--bg-base);
-            padding: 0.8rem 1.6rem;
-            border-radius: 10px;
-            text-decoration: none;
-            font-weight: 700;
-            border: none;
-            cursor: pointer;
-            transition: background-color 0.2s ease;
-        }
-
-        .action-btn:hover {
-            background-color: var(--accent-hover);
-        }
-
-        /* --- 1. HOME VIEW STYLES --- */
-        .hero-showcase {
-            background: linear-gradient(135deg, #111827 0%, var(--bg-surface) 100%);
-            border: 1px solid var(--border-ui);
-            border-radius: 20px;
-            padding: 3.5rem;
-            margin-bottom: 3rem;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .hero-showcase::after {
-            content: '';
             position: absolute;
-            top: -50%;
-            right: -20%;
-            width: 500px;
-            height: 500px;
-            background: radial-gradient(circle, rgba(34, 197, 94, 0.1) 0%, transparent 70%);
-            pointer-events: none;
+            top: 10px;
+            left: 10px;
+            background: var(--accent);
+            color: white;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            animation: pulse 2s infinite;
         }
 
-        .hero-content h1 {
-            font-size: 2.75rem;
-            font-weight: 800;
-            margin-bottom: 0.75rem;
-            letter-spacing: -1px;
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
         }
 
-        .hero-content p {
-            color: var(--text-secondary);
-            max-width: 600px;
-            margin-bottom: 1.5rem;
-            font-size: 1.1rem;
-        }
-
-        /* --- 2. LIVE CINEMATIC PLAYER VIEW --- */
-        .cinematic-player-wrapper {
-            max-width: 1000px;
-            margin: 0 auto;
-        }
-
-        .video-canvas-container {
-            background-color: #000;
-            aspect-ratio: 16/9;
-            border-radius: 16px;
-            overflow: hidden;
-            border: 1px solid var(--border-ui);
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 20px 40px -15px rgba(0,0,0,0.7);
-        }
-
-        .ui-video-mock {
-            text-align: center;
-            color: var(--text-secondary);
-        }
-
-        .ui-video-mock svg {
-            width: 64px;
-            height: 64px;
-            fill: var(--accent-sports);
-            margin-bottom: 1rem;
-        }
-
-        .stream-switcher-panel {
-            margin-top: 1.5rem;
-            display: flex;
-            gap: 1rem;
-            flex-wrap: wrap;
-        }
-
-        .server-btn {
-            background-color: var(--bg-surface);
-            border: 1px solid var(--border-ui);
-            color: var(--text-primary);
-            padding: 0.75rem 1.5rem;
-            border-radius: 10px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.2s ease;
-        }
-
-        .server-btn.active, .server-btn:hover {
-            border-color: var(--accent-sports);
-            background-color: var(--bg-card);
-        }
-
-        /* --- 3. BROADCAST SCHEDULE VIEW --- */
-        .schedule-timeline {
+        .card-content {
+            padding: 20px;
+            flex-grow: 1;
             display: flex;
             flex-direction: column;
-            gap: 1rem;
-            max-width: 900px;
-            margin: 0 auto;
         }
 
-        .timeline-row {
-            background-color: var(--bg-surface);
-            border: 1px solid var(--border-ui);
-            padding: 1.5rem;
-            border-radius: 14px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            transition: background-color 0.2s ease;
-        }
-
-        .timeline-row:hover {
-            background-color: var(--bg-card);
-        }
-
-        .timeline-time-block {
-            min-width: 110px;
-        }
-
-        .timeline-time {
-            font-size: 1.2rem;
-            font-weight: 700;
-            color: var(--accent-sports);
-        }
-
-        .timeline-date {
-            font-size: 0.8rem;
-            color: var(--text-secondary);
+        .category {
+            color: var(--accent);
+            font-size: 12px;
+            font-weight: 800;
             text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
         }
 
-        .timeline-details {
-            flex-grow: 1;
-            padding: 0 2rem;
-        }
-
-        .timeline-event-name {
-            font-size: 1.1rem;
-            font-weight: 600;
-            margin-bottom: 0.25rem;
-        }
-
-        .timeline-category {
-            font-size: 0.85rem;
-            color: var(--text-secondary);
-        }
-
-        .timeline-status {
-            font-size: 0.85rem;
+        .title {
+            font-size: 18px;
             font-weight: 700;
-            padding: 0.4rem 0.8rem;
-            border-radius: 8px;
-            background-color: var(--bg-card);
-            border: 1px solid var(--border-ui);
+            margin: 0 0 10px 0;
+            line-height: 1.3;
         }
 
-        .timeline-status.active-now {
-            background-color: rgba(34, 197, 94, 0.1);
-            border-color: var(--accent-sports);
-            color: var(--accent-sports);
+        .time {
+            color: var(--text-muted);
+            font-size: 14px;
+            margin-bottom: 20px;
         }
 
-        /* --- RESPONSIVE MEDIA QUERIES --- */
-        
-        /* Tablets (Portrait & Landscape up to 1024px) */
-        @media (max-width: 1024px) {
-            .hero-showcase { padding: 2.5rem; }
-            .hero-content h1 { font-size: 2.25rem; }
+        .watch-btn {
+            margin-top: auto;
+            display: block;
+            text-align: center;
+            background-color: #2563eb;
+            color: white;
+            text-decoration: none;
+            padding: 12px;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background 0.3s;
+            cursor: pointer;
+            border: none;
+            width: 100%;
+            font-size: 16px;
         }
 
-        /* Smartphones & Compact Tablets (up to 768px) */
+        .watch-btn:hover {
+            background-color: #1d4ed8;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 30px;
+            margin-top: 50px;
+            border-top: 1px solid #334155;
+            color: var(--text-muted);
+        }
+
+        /* Mobile responsiveness */
         @media (max-width: 768px) {
-            body { padding-bottom: 80px; } /* Navigation buffer for mobile */
-            
-            header { display: none; } /* Hide classic header wrapper on small touch screens */
-
-            /* Bottom Sticky App Navigation for Mobile UI/UX ergonomics */
-            .mobile-bottom-nav {
-                display: flex !important;
-                position: fixed;
-                bottom: 0;
-                left: 0;
-                right: 0;
-                background-color: var(--bg-surface);
-                border-top: 1px solid var(--border-ui);
-                justify-content: space-around;
-                padding: 0.75rem 0;
-                z-index: 2000;
-            }
-
-            .mobile-nav-item {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                color: var(--text-secondary);
-                text-decoration: none;
-                font-size: 0.75rem;
-                font-weight: 600;
-                cursor: pointer;
-                background: none;
-                border: none;
-            }
-
-            .mobile-nav-item.active {
-                color: var(--accent-sports);
-            }
-
-            .mobile-nav-icon {
-                font-size: 1.25rem;
-                margin-bottom: 0.2rem;
-            }
-
-            main {
-                margin: 1.5rem auto;
-                padding: 0 1rem;
-            }
-
-            .hero-showcase {
-                padding: 2rem 1.5rem;
-                text-align: center;
-            }
-
-            .hero-content h1 { font-size: 1.85rem; }
-            .hero-content p { font-size: 0.95rem; }
-
-            .timeline-row {
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 1rem;
-            }
-
-            .timeline-details {
-                padding: 0;
-            }
-
-            .timeline-status {
-                align-self: flex-start;
-            }
-        }
-
-        /* Hidden standard layout mobile element container fallback */
-        .mobile-bottom-nav {
-            display: none;
+            header { flex-direction: column; gap: 15px; }
+            nav { display: flex; gap: 15px; flex-wrap: wrap; justify-content: center; }
+            nav a { margin: 0; }
         }
     </style>
 </head>
 <body>
 
+    <!-- Website Navigation -->
     <header>
-        <div class="nav-container">
-            <div class="logo">SPORTZFY<span>LIVE</span></div>
-            <nav>
-                <ul class="nav-menu">
-                    <li><button class="nav-link active" onclick="navigateUI('home')">Home</button></li>
-                    <li><button class="nav-link" onclick="navigateUI('live')">Live Arena</button></li>
-                    <li><button class="nav-link" onclick="navigateUI('schedule')">Schedule</button></li>
-                    <li><button class="nav-link" onclick="navigateUI('channels')">Channels</button></li>
-                </ul>
-            </nav>
-        </div>
+        <div class="logo">Sportz<span>Hub</span></div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Live Matches</a>
+            <a href="#">Football</a>
+            <a href="#">Cricket</a>
+            <a href="#">Highlights</a>
+        </nav>
     </header>
 
-    <main>
+    <!-- Welcome Banner -->
+    <section class="hero">
+        <h1>Live Sports Streaming</h1>
+        <p>Watch your favorite matches from around the world, live and in HD.</p>
+    </section>
 
-        <section id="home" class="page-section active-section">
-            <div class="hero-showcase">
-                <div class="hero-content">
-                    <div style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.75rem;">
-                        <span class="live-indicator">Live Now</span>
-                        <span style="color: var(--text-secondary); font-size: 0.85rem; font-weight: 600;">Grand Slam Event</span>
-                    </div>
-                    <h1>Live Championship Arena</h1>
-                    <p>Stream world-class sports fixtures across multiple streams, optimized directly for performance on your network device.</p>
-                    <button class="action-btn" onclick="navigateUI('live')">Tune In Live</button>
-                </div>
-            </div>
-
-            <div class="section-header">
-                <h2 class="section-title">Trending Broadcasts <span class="live-indicator">Live</span></h2>
-            </div>
-            
-            <div class="grid-layout">
-                <div class="sport-card" onclick="navigateUI('live')">
-                    <div class="card-thumb">⚽ STREAM MIRROR 1</div>
-                    <div class="card-info">
-                        <span class="card-tag">Football</span>
-                        <div class="card-title">International League Match: Team Orange vs Team Blue</div>
-                        <div class="card-meta">Ultra HD Quality • 60 FPS</div>
-                    </div>
-                </div>
-                <div class="sport-card" onclick="navigateUI('live')">
-                    <div class="card-thumb">🏎️ STREAM MIRROR 2</div>
-                    <div class="card-info">
-                        <span class="card-tag">Motorsports</span>
-                        <div class="card-title">Grand Prix Racing Day Weekend Final</div>
-                        <div class="card-meta">Multi-Cam Feed • HD</div>
-                    </div>
-                </div>
-                <div class="sport-card" onclick="navigateUI('live')">
-                    <div class="card-thumb">🎾 STREAM MIRROR 3</div>
-                    <div class="card-info">
-                        <span class="card-tag">Tennis</span>
-                        <div class="card-title">World Open Championship Quarter Finals</div>
-                        <div class="card-meta">Court Arena 1 Feed</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="live" class="page-section">
-            <div class="cinematic-player-wrapper">
-                <div class="section-header">
-                    <h2 class="section-title" id="playerTitle">International League Match: Team Orange vs Team Blue</h2>
-                    <span class="live-indicator">Live</span>
-                </div>
-
-                <div class="video-canvas-container">
-                    <div class="ui-video-mock">
-                        <svg viewBox="0 0 24 24">
-                            <path d="M8 5v14l11-7z"/>
-                        </svg>
-                        <p style="color: #fff; font-size: 1.2rem; font-weight: 600; margin-bottom: 0.25rem;">Live Broadcast Container Shell</p>
-                        <p style="font-size: 0.9rem;">To stream media data, insert an embed source iframe or native player tags into this block.</p>
-                    </div>
-                </div>
-
-                <div class="stream-switcher-panel">
-                    <button class="server-btn active">Primary Link Server 1</button>
-                    <button class="server-btn">Backup Stream Server 2</button>
-                    <button class="server-btn">Low Latency Mirror 3</button>
-                </div>
-            </div>
-        </section>
-
-        <section id="schedule" class="page-section">
-            <div class="section-header">
-                <h2 class="section-title">Fixture & Transmission Schedule</h2>
-            </div>
-
-            <div class="schedule-timeline">
-                <div class="timeline-row">
-                    <div class="timeline-time-block">
-                        <div class="timeline-time">18:00</div>
-                        <div class="timeline-date">Today</div>
-                    </div>
-                    <div class="timeline-details">
-                        <div class="timeline-event-name">International League Match: Team Orange vs Team Blue</div>
-                        <div class="timeline-category">Football Division • Main Hub Stream</div>
-                    </div>
-                    <div class="timeline-status active-now">TRANSMITTING NOW</div>
-                </div>
-                <div class="timeline-row">
-                    <div class="timeline-time-block">
-                        <div class="timeline-time">22:30</div>
-                        <div class="timeline-date">Today</div>
-                    </div>
-                    <div class="timeline-details">
-                        <div class="timeline-event-name">T20 Cricket Club World Series Finals</div>
-                        <div class="timeline-category">Cricket • Premium Feed East</div>
-                    </div>
-                    <div class="timeline-status">UPCOMING TODAY</div>
-                </div>
-                <div class="timeline-row">
-                    <div class="timeline-time-block">
-                        <div class="timeline-time">03:00</div>
-                        <div class="timeline-date">Tomorrow</div>
-                    </div>
-                    <div class="timeline-details">
-                        <div class="timeline-event-name">Basketball Pro Championship Playoff Knockouts</div>
-                        <div class="timeline-category">Basketball • USA Broadcast feed</div>
-                    </div>
-                    <div class="timeline-status">UPCOMING SCHEDULE</div>
-                </div>
-            </div>
-        </section>
-
-        <section id="channels" class="page-section">
-            <div class="section-header">
-                <h2 class="section-title">Available Network Channels</h2>
-            </div>
-
-            <div class="grid-layout">
-                <div class="sport-card" onclick="navigateUI('live')">
-                    <div class="card-thumb" style="font-size: 2.25rem; font-weight: 800; color: var(--accent-sports);">S1</div>
-                    <div class="card-info" style="text-align: center;">
-                        <div class="card-title" style="margin: 0;">Sportzfy Main Network HD</div>
-                    </div>
-                </div>
-                <div class="sport-card" onclick="navigateUI('live')">
-                    <div class="card-thumb" style="font-size: 2.25rem; font-weight: 800; color: var(--accent-sports);">S2</div>
-                    <div class="card-info" style="text-align: center;">
-                        <div class="card-title" style="margin: 0;">Sportzfy Premium Extra</div>
-                    </div>
-                </div>
-                <div class="sport-card" onclick="navigateUI('live')">
-                    <div class="card-thumb" style="font-size: 2.25rem; font-weight: 800; color: #3b82f6;">FTV</div>
-                    <div class="card-info" style="text-align: center;">
-                        <div class="card-title" style="margin: 0;">Football Exclusive TV</div>
-                    </div>
-                </div>
-                <div class="sport-card" onclick="navigateUI('live')">
-                    <div class="card-thumb" style="font-size: 2.25rem; font-weight: 800; color: #ef4444;">VEL</div>
-                    <div class="card-info" style="text-align: center;">
-                        <div class="card-title" style="margin: 0;">Motorsports Hub Channel</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <div class="mobile-bottom-nav">
-        <button class="mobile-nav-item active" onclick="navigateUI('home')" id="mobile-btn-home">
-            <div class="mobile-nav-icon">🏠</div>
-            <div>Home</div>
-        </button>
-        <button class="mobile-nav-item" onclick="navigateUI('live')" id="mobile-btn-live">
-            <div class="mobile-nav-icon">📺</div>
-            <div>Live Arena</div>
-        </button>
-        <button class="mobile-nav-item" onclick="navigateUI('schedule')" id="mobile-btn-schedule">
-            <div class="mobile-nav-icon">📅</div>
-            <div>Schedule</div>
-        </button>
-        <button class="mobile-nav-item" onclick="navigateUI('channels')" id="mobile-btn-channels">
-            <div class="mobile-nav-icon">📡</div>
-            <div>Channels</div>
-        </button>
+    <!-- Match Grid Area -->
+    <div class="container">
+        <div class="grid" id="match-grid">
+            <!-- JavaScript will delete this loading text and insert the cards here -->
+            <h2 style="text-align: center; width: 100%; color: #94a3b8;">Connecting to server... Fetching live matches!</h2>
+        </div>
     </div>
 
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 SportzHub Live. All rights reserved.</p>
+    </footer>
+
+    <!-- JAVASCRIPT: The engine that talks to the Streamed.pk API -->
     <script>
-        function navigateUI(targetSectionId) {
-            // 1. Reset and hide all display page views
-            const views = document.querySelectorAll('.page-section');
-            views.forEach(section => {
-                section.classList.remove('active-section');
+        const apiUrl = 'https://streamed.pk/api/matches/live';
+        const matchGrid = document.getElementById('match-grid');
+
+        // Fetch the data from the API you found
+        fetch(apiUrl)
+            .then(response => {
+                if (!response.ok) throw new Error("Network response was not ok");
+                return response.json();
+            })
+            .then(data => {
+                // Clear the loading text
+                matchGrid.innerHTML = '';
+
+                // Loop through every match in the JSON data
+                data.forEach(match => {
+                    // Create a new card div
+                    const card = document.createElement('div');
+                    card.className = 'card';
+
+                    // Convert the UNIX timestamp (like 1720104600000) into a readable time
+                    let timeString = "Live Now";
+                    if(match.date) {
+                        const dateObj = new Date(match.date);
+                        timeString = dateObj.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+                    }
+
+                    // Build the HTML inside the card
+                    card.innerHTML = `
+                        <div class="card-img">
+                            <span class="live-indicator">● LIVE</span>
+                        </div>
+                        <div class="card-content">
+                            <div class="category">${match.category || 'Sports'}</div>
+                            <h3 class="title">${match.title}</h3>
+                            <div class="time">Starts: ${timeString}</div>
+                            
+                            <!-- Placeholder button -->
+                            <button class="watch-btn" onclick="alert('In a real site, this would open a video player for ID: ${match.id}')">
+                                Watch Live
+                            </button>
+                        </div>
+                    `;
+
+                    // Add the card to the grid
+                    matchGrid.appendChild(card);
+                });
+            })
+            .catch(error => {
+                // If it fails (like a CORS block), show a helpful error
+                console.error('Error fetching data:', error);
+                matchGrid.innerHTML = `
+                    <div style="text-align: center; width: 100%;">
+                        <h2 style="color: #e74c3c;">Oops! The API blocked the request.</h2>
+                        <p style="color: #94a3b8;">This happens when trying to access their data from a local desktop file instead of a real web server. To fix this, you would use a "CORS proxy" or host this file on a real server.</p>
+                    </div>
+                `;
             });
-
-            // 2. Unlink highlighting tracking markers on all classic desktop menus
-            const traditionalLinks = document.querySelectorAll('.nav-link');
-            traditionalLinks.forEach(link => {
-                link.classList.remove('active');
-            });
-
-            // 3. Unlink tracking markers on touch mobile task bar buttons
-            const modernMobileButtons = document.querySelectorAll('.mobile-nav-item');
-            modernMobileButtons.forEach(btn => {
-                btn.classList.remove('active');
-            });
-
-            // 4. Reveal targeted viewport node
-            document.getElementById(targetSectionId).classList.add('active-section');
-
-            // 5. Connect matching desktop navigation control status state 
-            const activeDesktopTarget = Array.from(traditionalLinks).find(link => 
-                link.getAttribute('onclick').includes(targetSectionId)
-            );
-            if (activeDesktopTarget) {
-                activeDesktopTarget.classList.add('active');
-            }
-
-            // 6. Connect matching mobile sticky controller navigation layout element status state
-            const targetMobileId = 'mobile-btn-' + targetSectionId;
-            const activeMobileTarget = document.getElementById(targetMobileId);
-            if (activeMobileTarget) {
-                activeMobileTarget.classList.add('active');
-            }
-
-            // 7. Push scrolling position context smoothly to coordinate roof line axis
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
-
-        // Connect intuitive active-class toggling listener for multi-source link servers
-        document.querySelectorAll('.server-btn').forEach(button => {
-            button.addEventListener('click', function() {
-                document.querySelectorAll('.server-btn').forEach(btn => btn.classList.remove('active'));
-                this.classList.add('active');
-            });
-        });
     </script>
+
 </body>
 </html>
