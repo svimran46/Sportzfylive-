@@ -2,9 +2,11 @@ name: Auto Update M3U8 Links
 
 on:
   schedule:
-    # Runs automatically every 6 hours
     - cron: '0 */6 * * *'
-  workflow_dispatch: # Allows manual trigger from GitHub UI
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-links:
@@ -32,3 +34,4 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add m3u8_only.txt
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update m3u8 links" && git push)
+
