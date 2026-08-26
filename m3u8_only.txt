@@ -8,14 +8,8 @@ https://leaf.highfly.dev/m3u/us-tennis-hd/live.m3u8
 https://leaf.highfly.dev/m3u/pbr-ridepass-flo-racing-01/live.m3u8
 https://leaf.highfly.dev/m3u/us-espn-hd/live.m3u8
 https://leaf.highfly.dev/m3u/now-sky-sports-premier-league/live.m3u8
-https://leaf.highfly.dev/m3u/now-sky-sports-f1-free/live.m3u8
-https://leaf.highfly.dev/m3u/1562988/live.m3u8
-https://leaf.highfly.dev/m3u/1174158/live.m3u8
-https://www.google.com
-https://www.google.com
-https://www.google.com
-https://www.google.com
-https://www.google.com
+https://leaf.highfly.dev/m3u/us-tennis-channel/live.m3u8
+https://leaf.highfly.dev/m3u/us-tennis-channel/live.m3u8
 https://www.google.com
 https://www.google.com
 https://www.google.com
