@@ -3,13 +3,13 @@ import time
 
 BASE_URL = "https://sports.highfly.dev"
 MANIFEST_URL = f"{BASE_URL}/manifest.json"
-OUTPUT_FILE = "m3u8_only.txt"
+OUTPUT_FILE = "playlist.m3u"  # Saves directly as an M3U file
 
 # Keywords to strictly identify football / soccer content
 FOOTBALL_KEYWORDS = ['football', 'soccer', 'soc', 'epl', 'laliga', 'seriea', 'bundesliga', 'ucl', 'uefa', 'fifa']
 
 def extract_m3u_playlist():
-    print("Fetching manifest and generating sequential CH playlist...")
+    print("Fetching manifest and generating clean M3U playlist...")
     try:
         manifest = requests.get(MANIFEST_URL).json()
     except Exception as e:
@@ -20,7 +20,7 @@ def extract_m3u_playlist():
     channel_index = 1
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        # Write the mandatory M3U header at the top
+        # Mandatory M3U header
         f.write("#EXTM3U\n")
 
         for catalog in catalogs:
@@ -53,9 +53,8 @@ def extract_m3u_playlist():
                     for stream in streams:
                         link = stream.get('url', '')
 
-                        # Ignore empty links and placeholder google.com links
+                        # Strictly skip empty links and google.com placeholders
                         if link and "google.com" not in link:
-                            # Write sequential CH format
                             f.write(f"#EXTINF:-1,CH{channel_index}\n")
                             f.write(f"{link}\n")
                             channel_index += 1
@@ -63,8 +62,7 @@ def extract_m3u_playlist():
                     continue
                 time.sleep(0.05)
 
-    print(f"\nDone! Saved {channel_index - 1} channels with CH sequential titles to {OUTPUT_FILE}")
+    print(f"\nDone! Saved {channel_index - 1} channels to {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     extract_m3u_playlist()
-
