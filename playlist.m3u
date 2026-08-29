@@ -1,35 +1,39 @@
 #EXTM3U
-#EXTINF:-1,CH1
+#EXTINF:-1,(fhd) Sky Sports F1 ᴿᴬᵂ
 https://leaf.highfly.dev/m3u/now-sky-sports-f1-free/live.m3u8
-#EXTINF:-1,CH2
+#EXTINF:-1,Fhd : Sky Sports Golf ᴿᴬᵂ
 https://leaf.highfly.dev/m3u/now-sky-sports-golf/live.m3u8
-#EXTINF:-1,CH3
+#EXTINF:-1,Uk: Premier Sport 1 ᴿᴬᵂ
 https://leaf.highfly.dev/m3u/uk-premier-sport-1/live.m3u8
-#EXTINF:-1,CH4
+#EXTINF:-1,Now: Sky Sports Tennis ᴿᴬᵂ
 https://leaf.highfly.dev/m3u/now-sky-sports-tennis/live.m3u8
-#EXTINF:-1,CH5
+#EXTINF:-1,(epl) : Sky Sports Premier League ᴿᴬᵂ
 https://leaf.highfly.dev/m3u/sky-premier-league/live.m3u8
-#EXTINF:-1,CH6
+#EXTINF:-1,Us: Espn Hd
 https://leaf.highfly.dev/m3u/us-espn/live.m3u8
-#EXTINF:-1,CH7
+#EXTINF:-1,Au: Fox Sports 502 Hd
 https://leaf.highfly.dev/m3u/au-fox-sports-502-hd/live.m3u8
-#EXTINF:-1,CH8
+#EXTINF:-1,Now: Sky Sports Cricket ᴿᴬᵂ
 https://leaf.highfly.dev/m3u/now-sky-sports-cricket/live.m3u8
-#EXTINF:-1,CH9
+#EXTINF:-1,Us: Marquee Sports Network Hd
 https://leaf.highfly.dev/m3u/us-marquee-sports-network-hd/live.m3u8
-#EXTINF:-1,CH10
-https://leaf.highfly.dev/m3u/us-tennis-channel/live.m3u8
-#EXTINF:-1,CH11
-https://leaf.highfly.dev/m3u/324993/live.m3u8
-#EXTINF:-1,CH12
-https://leaf.highfly.dev/m3u/1527625/live.m3u8
-#EXTINF:-1,CH13
-https://leaf.highfly.dev/m3u/sky-premier-league/live.m3u8
-#EXTINF:-1,CH14
-https://leaf.highfly.dev/m3u/1968680/live.m3u8
-#EXTINF:-1,CH15
-https://leaf.highfly.dev/m3u/uk-premier-sport-1/live.m3u8
-#EXTINF:-1,CH16
-https://leaf.highfly.dev/m3u/now-sky-sports-f1-free/live.m3u8
-#EXTINF:-1,CH17
-https://leaf.highfly.dev/m3u/au-fox-sports-502-hd/live.m3u8
+#EXTINF:-1,Au: Fox Sports 504 Hd
+https://leaf.highfly.dev/m3u/au-fox-sports-504-hd/live.m3u8
+#EXTINF:-1,Bristol City Vs Portsmouth
+https://leaf.highfly.dev/m3u/2113613/live.m3u8
+#EXTINF:-1,Bristol City Vs Portsmouth
+https://leaf.highfly.dev/m3u/2113605/live.m3u8
+#EXTINF:-1,Fhd : Sky Sports Golf ᴿᴬᵂ
+https://leaf.highfly.dev/m3u/now-sky-sports-golf/live.m3u8
+#EXTINF:-1,Elversberg Vs Bayer Leverkusen
+https://leaf.highfly.dev/m3u/1562674/live.m3u8
+#EXTINF:-1,Sheffield Wednesday Vs Bromley
+https://leaf.highfly.dev/m3u/2113656/live.m3u8
+#EXTINF:-1,Sheffield Wednesday Vs Bromley
+https://leaf.highfly.dev/m3u/2113671/live.m3u8
+#EXTINF:-1,Cardiff Vs Sheffield Utd
+https://leaf.highfly.dev/m3u/429938/live.m3u8
+#EXTINF:-1,Cardiff Vs Sheffield Utd
+https://leaf.highfly.dev/m3u/1501728/live.m3u8
+#EXTINF:-1,Au: Fox Sports 504 Hd
+https://leaf.highfly.dev/m3u/au-fox-sports-504-hd/live.m3u8
