@@ -3,7 +3,6 @@ name: Auto Update M3U8 Links
 on:
   schedule:
     - cron: '*/30 * * * *'
-
   workflow_dispatch:
 
 permissions:
@@ -14,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v7
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
@@ -26,11 +25,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Run script to generate m3u8_only.txt
-        run: python extract_links_only.py
+      - name: Run extraction scripts
+        run: |
+          python extract_links_only.py
+          python timstreams_extract.py
 
       - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v7
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: Auto-update m3u8 links
-          file_pattern: 'playlist.m3u'
+          commit_message: "Auto-update M3U playlists"
+          file_pattern: '*.m3u'
