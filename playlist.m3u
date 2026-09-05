@@ -1,111 +1,27 @@
 #EXTM3U
-#EXTINF:-1,(fhd) : Sky Sports Cricket ᴿᴬᵂ
+#EXTINF:-1,Sky Sports Cricket ᴿᴬᵂ
 https://leaf.highfly.dev/m3u/now-sky-sports-cricket/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,(fhd) Sky Sports F1 ᴿᴬᵂ
+#EXTINF:-1,Sky Sports F1 ᴿᴬᵂ
 https://leaf.highfly.dev/m3u/now-sky-sports-f1-free/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,Au: Fox Sports 504 Hd
+#EXTINF:-1,Au Fox Sports 504 Hd
 https://leaf.highfly.dev/m3u/au-fox-sports-504-hd/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,Fhd : Sky Sports Golf ᴿᴬᵂ
+#EXTINF:-1,Sky Sports Golf ᴿᴬᵂ
 https://leaf.highfly.dev/m3u/now-sky-sports-golf/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,(fhd) : Sky Sports Tennis ᴿᴬᵂ
+#EXTINF:-1,Sky Sports Tennis ᴿᴬᵂ
 https://leaf.highfly.dev/m3u/now-sky-sports-tennis/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,Au: Fox Sports 502 Hd
+#EXTINF:-1,Au Fox Sports 502 Hd
 https://leaf.highfly.dev/m3u/au-fox-sports-502-hd/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,Us: Tennis Channel
+#EXTINF:-1,Us Tennis Channel
 https://leaf.highfly.dev/m3u/us-tennis-channel/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,Us: Espn Hd
+#EXTINF:-1,Us Espn Hd
 https://leaf.highfly.dev/m3u/us-espn-hd/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,Now: Sky Sports Premier League ᴿᴬᵂ
+#EXTINF:-1,Now Sky Sports Premier League ᴿᴬᵂ
 https://leaf.highfly.dev/m3u/now-sky-sports-premier-league/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,4k : Sky Sports Main Events
+#EXTINF:-1,4k Sky Sports Main Events
 https://leaf.highfly.dev/m3u/4k-sky-sports-main-events/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,4k : Sky Sports F1
-https://leaf.highfly.dev/m3u/now-sky-sports-f1-2/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,Arminia Bielefeld Vs St Pauli
-https://leaf.highfly.dev/m3u/1991991/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,Arminia Bielefeld Vs St Pauli
-https://recaps.highfly.dev/live/streamed_arminia_bielefeld_vs_st_pauli_2511769/live.m3u8
-#EXTINF:-1,Pau Vs Sochaux
-https://leaf.highfly.dev/m3u/1562822/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,Pau Vs Sochaux
-https://recaps.highfly.dev/live/streamed_pau_vs_sochaux_2488748/live.m3u8
-#EXTINF:-1,Las Palmas Vs Leganés
-https://leaf.highfly.dev/m3u/1954590/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,Las Palmas Vs Leganés
-https://leaf.highfly.dev/m3u/1924710/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,Las Palmas Vs Leganés
-https://recaps.highfly.dev/live/streamed_las_palmas_vs_legan_s_2505740/live.m3u8
-#EXTINF:-1,Paris Saint Germain Vs Monaco
-https://leaf.highfly.dev/m3u/325025/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,Paris Saint Germain Vs Monaco
-https://leaf.highfly.dev/m3u/1519911/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,Paris Saint Germain Vs Monaco
-https://recaps.highfly.dev/live/streamed_paris_saint_germain_vs_monaco_2489484/live.m3u8
-#EXTINF:-1,Us: Espn Hd
-https://leaf.highfly.dev/m3u/us-espn-hd/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,Viborg Vs Lyngby
-https://leaf.highfly.dev/m3u/1712489/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,Viborg Vs Lyngby
-https://recaps.highfly.dev/live/streamed_viborg_vs_lyngby_2481828/live.m3u8
-#EXTINF:-1,Vfb Stuttgart Vs Fc Cologne
-https://leaf.highfly.dev/m3u/1820471/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,Vfb Stuttgart Vs Fc Cologne
-https://leaf.highfly.dev/m3u/1562691/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,Vfb Stuttgart Vs Fc Cologne
-https://recaps.highfly.dev/live/streamed_ppv_vf_b_stuttgart_vs_fc_cologne/live.m3u8
-#EXTINF:-1,Mali Vs Spain
-https://www.google.com
-#EXTINF:-1,Puerto Rico Vs Turkiye
-https://www.google.com
-#EXTINF:-1,United States Vs Czechia
-https://www.google.com
-#EXTINF:-1,Dunkerque Vs Clermont Foot
-https://leaf.highfly.dev/m3u/1562823/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,Dunkerque Vs Clermont Foot
-https://recaps.highfly.dev/live/streamed_dunkerque_vs_clermont_foot_2488750/live.m3u8
-#EXTINF:-1,Ipswich Town Vs Liverpool
-https://leaf.highfly.dev/m3u/now-sky-sports-premier-league/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,Ipswich Town Vs Liverpool
-https://leaf.highfly.dev/m3u/4k-sky-sports-main-events/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,Ipswich Town Vs Liverpool
-https://leaf.highfly.dev/m3u/1527598/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,Ipswich Town Vs Liverpool
-https://leaf.highfly.dev/m3u/1527598/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,Ipswich Town Vs Liverpool
-https://leaf.highfly.dev/m3u/325796/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,Ipswich Town Vs Liverpool
-https://leaf.highfly.dev/m3u/2006126/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,Ipswich Town Vs Liverpool
-https://recaps.highfly.dev/live/streamed_ipswich_town_vs_liverpool_2494027/live.m3u8
-#EXTINF:-1,Purdue Vs Indiana State
-https://www.google.com
-#EXTINF:-1,Nebraska Vs Ohio
-https://www.google.com
-#EXTINF:-1,Cincinnati Reds Vs Milwaukee Brewers
-https://www.google.com
-#EXTINF:-1,Houston Astros Vs Arizona Diamondbacks
-https://www.google.com
-#EXTINF:-1,Cleveland Guardians Vs Detroit Tigers
-https://www.google.com
-#EXTINF:-1,Indycar 2026 Indycar Grand Prix Of Monterey
-https://www.google.com
-#EXTINF:-1,Formula 1 2026 Spain Gp
-https://www.google.com
-#EXTINF:-1,Dana White's Contender Series: Season 10, Week 5
-https://www.google.com
-#EXTINF:-1,Au: Fox Sports 502 Hd
-https://leaf.highfly.dev/m3u/au-fox-sports-502-hd/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,Harlequins Vs Leicester Tigers
-https://www.google.com
-#EXTINF:-1,Panthers Vs Wests Tigers
-https://www.google.com
-#EXTINF:-1,Czech Darts Open | Day 1 Evening Session
-https://leaf.highfly.dev/m3u/1562549/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
-#EXTINF:-1,Czech Darts Open | Day 1 Evening Session
-https://recaps.highfly.dev/live/streamed_ppv_czech_darts_open_day_1_evening_session/live.m3u8
-#EXTINF:-1,Cage Fury Fc 160 ⭐
-https://www.google.com
-#EXTINF:-1,1st Practice | Autodromo Nazionale Monza |
-https://recaps.highfly.dev/vod/streamed_1st_practice_autodromo_nazionale_monza_formula_1_2578/playlist.m3u8
-#EXTINF:-1,Utah Vs Idaho
-https://recaps.highfly.dev/vod/streamed_utah_vs_idaho_2498587/playlist.m3u8
+#EXTINF:-1,Colorado Rockies Vs St Louis Cardinals
+https://leaf.highfly.dev/m3u/1904220/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
+#EXTINF:-1,Colorado Rockies Vs St Louis Cardinals
+https://leaf.highfly.dev/m3u/1904203/live.m3u8?token=352560f7-07b9-476f-8c12-4f4b609df881
+#EXTINF:-1,Colorado Rockies Vs St Louis Cardinals
+https://recaps.highfly.dev/live/streamed_colorado_rockies_vs_st__louis_cardinals_2458168/live.m3u8
