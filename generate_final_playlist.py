@@ -26,7 +26,6 @@ HEADERS = {
 # --- Regex Patterns ---
 ARRAY_RE = re.compile(r'var\s+(_[a-z]{2}\d)\s*=\s*\[\s*([0-9,\s]+)\s*\]')
 INT_ASSIGN_RE = re.compile(r'(_[a-z]{2}\d)\s*=\s*(\d{1,3})\s*[,;]')
-# Broadened: Matches ANY quoted URL containing .m3u8 in the decoded text
 M3U8_RE = re.compile(r'["\'](https?://[^"\']+\.m3u8[^"\']*)["\']', re.IGNORECASE)
 
 def ensure_dirs():
@@ -99,13 +98,12 @@ def extract_m3u8_from_html(html):
                     if m3u8_match:
                         return m3u8_match.group(1), "SUCCESS"
                     else:
-                        # Print a snippet of decoded text for debugging if it matched jwplayer but no m3u8
-                        return None, f"NO_M3U8_IN_DECODE (Snippet: {decoded[:150].strip()})"
+                        return None, "NO_M3U8_IN_DECODE"
                         
     return None, "DECODE_FAILURE"
 
 def write_playlist(successes):
-    print(f"\n[*] Writing playlist to {OUTPUT_PLAYLIST}...")
+    print(f"\n[*] Writing playlist to {OUTPUT_PLAYLIST} with embedded headers...")
     with open(OUTPUT_PLAYLIST, 'w', encoding='utf-8') as f:
         f.write("#EXTM3U\n")
         for ch_name, data in successes.items():
@@ -113,6 +111,9 @@ def write_playlist(successes):
             url = data.get('m3u8_url')
             if url:
                 f.write(f'#EXTINF:-1 tvg-logo="{logo}",{ch_name}\n')
+                # Inject VLC HTTP options to pass required User-Agent and Referer automatically
+                f.write(f'#EXTVLCOPT:http-user-agent={HEADERS["User-Agent"]}\n')
+                f.write(f'#EXTVLCOPT:http-referrer={HEADERS["Referer"]}\n')
                 f.write(f"{url}\n")
     print(f"[*] Playlist written with {len(successes)} channels.")
 
@@ -214,10 +215,6 @@ def main():
     counts = Counter(f['failure_category'] for f in failures)
     for cat, count in counts.items():
         print(f"{cat:<25}: {count}")
-        
-    if failures:
-        print(f"\n[*] Dumped HTML for failed channels in {FAILURES_HTML_DIR}/")
-        print("[*] To retry only failed channels, run: python generate_final_playlist.py --only-failures")
 
 if __name__ == "__main__":
     main()

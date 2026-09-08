@@ -1,317 +1,633 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://cdn.abcotvs.com/dip/images/11479454_011822-cc-abc-generic-thumb-img.jpg",ABC
-https://epidd.hundxvision.co.uk/main/secure/403b6a7692330285706516e35dd97c3eb5074f6bef7d9a06e7437d71e52d0e80/1788887945/abc.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/54050058d44a013865b62c4d2074742c20cb9110f1559a7dfd3054c24d5c118e/1788888743/abc.m3u8
 #EXTINF:-1 tvg-logo="https://theacc.com/images/2018/11/30/ACCN_Launch.png",ACC Network
-https://epidd.hundxvision.co.uk/main/secure/8af1a2e0491b4b0d30bf760cccf628832586d635b1fa151f27dde848e4e04787/1788887946/acc-network.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/ad33183bc5ca5b8084539ebc59dd6622fac9c0915afa1b77a5fcb9b272ecf4c0/1788888744/acc-network.m3u8
 #EXTINF:-1 tvg-logo="https://www.aetv.com/assets/images/aetv/generic-thumb.jpg",AE
-https://epidd.hundxvision.co.uk/main/secure/cfef9f835a9e2b1719f2ce3e596bf9544ca6e1823845f503b1e195071f80919b/1788887947/ae.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/1b0e54f8f87a77a7505d8dffeeafed622c48fdb3788539306e2555a7a5c6ff9f/1788888745/ae.m3u8
 #EXTINF:-1 tvg-logo="https://tvseriesfinale.com/wp-content/uploads/2014/08/amc02.jpg",AMC
-https://epidd.hundxvision.co.uk/main/secure/1b5d54757b6d2b85492b87511ef4c982161ed698d392848516874490929b2770/1788887948/amc.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/ccc21b90ec925fe54cae1a735f5abfa93a26cca1a6e98d246a6a7716cd65d0e1/1788888746/amc.m3u8
 #EXTINF:-1 tvg-logo="https://payload.cargocollective.com/1/10/342209/9724942/AHC_15a_3_1340_c.jpg",American Heroes Channel
-https://epidd.hundxvision.co.uk/main/secure/09f52bf991e0ed9cc69acffb1d1c28c5561414b132981eda6dc998279ac8cab1/1788887949/american-heroes-channel.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/ffb39ed7d7bb1a30acb8b759d9b5f34ba7178aed70b5aa5d2915aad4fc9dd4a4/1788888747/american-heroes-channel.m3u8
 #EXTINF:-1 tvg-logo="https://mir-s3-cdn-cf.behance.net/project_modules/disp/f9ee57107702215.5facf9f601507.jpg",Animal Planet
-https://epidd.hundxvision.co.uk/main/secure/9926a8f566e32380001f679cd15cc7780b467436364f9f84b373a7e22287f636/1788887950/animal-planet.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/c1e6e0562599317cfdf4f5c8b1a89fe601bebffc78c224ce147b562196e344bf/1788888748/animal-planet.m3u8
 #EXTINF:-1 tvg-logo="https://www.hcc.net/wp-content/uploads/2012/06/AXS_TV_BlueWhite.jpg",AXS TV
-https://epidd.hundxvision.co.uk/main/secure/737d6b47ee9a2e3704d5e45eae03d6f60967a285bf7773cdf4148be07d6a6af8/1788887951/axs-tv.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/3bbd7b61ad93167b7e3f761c31e2ea9c2d5e7dedacc60604fc498e10a3fa66b5/1788888749/axs-tv.m3u8
 #EXTINF:-1 tvg-logo="https://www.newscaststudio.com/wp-content/uploads/2024/11/bbc-america-logo.jpg",BBC America
-https://epidd.hundxvision.co.uk/main/secure/a7d20fe8315300826323e3715bbc11aeb9ff04c6a6028e291dd187c303988bdf/1788887952/bbc-america.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/65b0e38f27d63f45759da9c40a74ae384d77e8d2a42e30b109754c5aa05c7530/1788888750/bbc-america.m3u8
 #EXTINF:-1 tvg-logo="https://ichef.bbci.co.uk/images/ic/1200x675/p0dkt7rv.jpg",BBC One London
-https://epidd.hundxvision.co.uk/main/secure/4d1dce8f5d2781f0f0f0808687fea15c8d680944b7f9c6ce1e55cb2e7cbfbae2/1788887953/bbc-one-london.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/8a3fba9262aa46bb8972fd11af77150a3b91afb782c72b3cb3f4045b44a6765b/1788888751/bbc-one-london.m3u8
 #EXTINF:-1 tvg-logo="https://ichef.bbci.co.uk/images/ic/1200x675/p0bvs8dg.jpg",BBC Two
-https://epidd.hundxvision.co.uk/main/secure/1f63b1dc9efa44161f974e25ff1455ac6aa3fb04c0165f99daad351020cd9b81/1788887954/bbc-two.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/a85361dc50139b75f664770911d756c6e1540bfc8655f2243df850bcc6b2d544/1788888752/bbc-two.m3u8
 #EXTINF:-1 tvg-logo="https://assets-us-01.kc-usercontent.com/31dbcbc6-da4c-0033-328a-d7621d0fa726/1318873e-8501-4f79-bb69-182d741cf9ad/beIN%20SPORTS%20Portada.jpg?ver=03-06-2025?w=3840&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;q=75",beIN Sports
-https://epidd.hundxvision.co.uk/main/secure/576823d8ee6ec587143d21418c11e08b880a8ce1f9b191c68e8bdcd35614aff9/1788887955/bein-sports.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/98746a571c41fe35fc17d40ed2eb45b54201c3209feeb3a179a55bfea134b55a/1788888752/bein-sports.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/willthequeencome/img-cdn/beinsports.png",beIN Sports Francais 1
-https://epidd.hundxvision.co.uk/main/secure/58bde2fb46b78ceee27c474a3a4010b9605d315a6f88243420dcef643f76e157/1788887956/bein-sports-francais-1.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/f072f5ce52e47f2ee8e7f560faab159bd7f22a25aa65271d1713f979920329fd/1788888753/bein-sports-francais-1.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/willthequeencome/img-cdn/beinsports.png",beIN Sports Francais 2
-https://epidd.hundxvision.co.uk/main/secure/aac391709d19a1f6b1242ae71eac24c22fa1717fe216b024ddc7d5e64f46a0b2/1788887957/bein-sports-francais-2.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/f2b895096dfe391a69cdb42f2a0bb0dc6bc99a312a0d46fab82037a1147e9a80/1788888754/bein-sports-francais-2.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/willthequeencome/img-cdn/beinsports.png",beIN Sports Francais 3
-https://epidd.hundxvision.co.uk/main/secure/0121d71777fb69c580cf79a9f46f43c9fd329eed99f177be969f2c71e57467cb/1788887958/bein-sports-francais-3.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/434f1eab391c04c79692d170a693928b0fb615945743bf21befd65279ccaa6d3/1788888755/bein-sports-francais-3.m3u8
 #EXTINF:-1 tvg-logo="https://barrettmedia.com/wp-content/uploads/2024/07/Big-Ten-Network-BTN-Logo.jpg",Big Ten Network
-https://epidd.hundxvision.co.uk/main/secure/45f89c41dad4d4c68c02fb76bfb2991ee312003d1234fd431448d6a680790713/1788887959/big-ten-network.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/ede3772001dee4a7a23960f35835ed565b87e5c1a92341c01439b77d16e676d9/1788888756/big-ten-network.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.broadbandtvnews.com/wp-content/uploads/2024/08/05120702/Boomerang.jpg",Boomerang
-https://epidd.hundxvision.co.uk/main/secure/dbd5416db897a232587f5f6984e1f8a02e467fcee893504d30801b8237e8805c/1788887960/boomerang.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/d8abdc56ae129b968e98f10dab6bc268749416e0e702cedf53d31ccf924c833f/1788888757/boomerang.m3u8
 #EXTINF:-1 tvg-logo="https://www.bravotv.com/sites/bravo/files/2024/05/bravo-logo-2jpg.jpg",Bravo
-https://epidd.hundxvision.co.uk/main/secure/ab33e5841e8ed74cc16c64ace15772d099c68bf39716b7ba84c4f427584c129b/1788887960/bravo.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/e435621f0659d9887595bceecfe262f5a045e81e5e8c50a891346c067a664c98/1788888758/bravo.m3u8
 #EXTINF:-1 tvg-logo="https://1000logos.net/wp-content/uploads/2016/10/Cartoon-Network-logo.jpg",Cartoon Network
-https://epidd.hundxvision.co.uk/main/secure/06c3187043dd794814ad8ac279db65cc8c8f32b292fcc185a1aa30d2a4fa05e1/1788888004/cartoon-network.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/9b2febcd7e50768d70ccdd2c1f11c1057e62d5a22efd3597174ad8e22cdb3e96/1788888801/cartoon-network.m3u8
 #EXTINF:-1 tvg-logo="https://static.files.bbci.co.uk/core/website/assets/static/childrens-web/images/metadata/cbeebies-poster-1024x576.8eb27aa32e.png",CBeebies
-https://epidd.hundxvision.co.uk/main/secure/bc102635b7509e72642a3c3eba7820e3e3374d2a77f0afbb7fbea5e618096caf/1788888006/cbeebies.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/70918195d4fbc49d525c10516834b2430dbbe5e52683ed2d420f56ee0eae71a7/1788888802/cbeebies.m3u8
 #EXTINF:-1 tvg-logo="https://wwwimage-tve.cbsstatic.com/base/files/seo/cbs_seo_1200x627_1.jpg",CBS
-https://epidd.hundxvision.co.uk/main/secure/28af6501a90846347547bde3103a1ec4f0d38a280a75bd53acda737f8a714a39/1788888007/cbs.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/7e154f991777d0a815fd275ccbf4002ef4d11284630b567134454882791ef2ea/1788888802/cbs.m3u8
 #EXTINF:-1 tvg-logo="https://www.paramountshop.com/cdn/shop/files/cbssportsnetwork-mobile-min.png",CBS Sports Network
-https://epidd.hundxvision.co.uk/main/secure/81a86a4c65e90f95c5e5c596807a9a3228e6ed8a79472e65aca56a7d201eb4ff/1788888008/cbs-sports-network.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/b25570f41aac32b2c130774041a011ff3fb352e4fce145bf9af21881f00de562/1788888804/cbs-sports-network.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.versantmedia.com/versantmedia/styles/newsroom/s3/2025-11/cnbc%281600x900%29.png",CNBC
-https://epidd.hundxvision.co.uk/main/secure/ed3e7ba9d913d7b623d48715b31dec5c6567990bafa0847dacf90d35732e455c/1788888009/cnbc.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/140e2950e2edab88e0b472b9dd51fd50d0a024814d6f2c7b84b9c52505de58b8/1788888805/cnbc.m3u8
 #EXTINF:-1 tvg-logo="https://wwwimage-us.pplusstatic.com/base/files/seo/og-brand-comedy-central.jpg?format=webp",Comedy Central
-https://epidd.hundxvision.co.uk/main/secure/9d458f261e18b0044172bd13cc034ad7a0070cd35b37f66d0212c1f24a871551/1788888010/comedy-central.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/f4c9606d2151ed42002d5d331a69de9c34fe5a11c801c5065dc46a1e83d19e73/1788888806/comedy-central.m3u8
 #EXTINF:-1 tvg-logo="https://www.wavy.com/wp-content/uploads/sites/3/2024/08/cw-logo-white-on-blue-wavy-background.jpg?w=1280",CW
-https://epidd.hundxvision.co.uk/main/secure/517725a31c19039561e15f82b72ca9ecc17d5141fe1712daa1c4fe6d843c0a8f/1788888010/cw.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/88791101a5023272422ecb8edeea9ebb17aacb0de7853c4f131c2510da85b05f/1788888807/cw.m3u8
 #EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=12dpnhddhmpm71228raanhyxs2_image-header_pDach_1723627450000&amp;amp;amp;amp;amp;amp;amp;quality=70",DAZN 1 Germany
-https://epidd.hundxvision.co.uk/main/secure/b5d4337e7c5340bba7bec51460c967f45408e7395dc7b777103a76161d2c0ade/1788888011/dazn-1-germany.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/8e85b2c4a1d9a8b15e1a21654fa7785d1cb355a1c0efb31763bf11fb278143c9/1788888808/dazn-1-germany.m3u8
 #EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1ni1lpwjtnxmr1xklfoptrt2mz_image-header_pDach_1723628653000",DAZN 2 Germany
-https://epidd.hundxvision.co.uk/main/secure/f9a2a57f6df3bbfa79113c97f10351b62de9196e45aaca2a7db8a624936f5fd9/1788888012/dazn-2-germany.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/be77f405271879e000cea0e28515040276abf730b897a52a441788606461dfbe/1788888809/dazn-2-germany.m3u8
 #EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=pterrit4f2xu1pa2r6x87y5e9_image-header_pIt_1724315365000&amp;amp;amp;amp;amp;amp;amp;quality=70",DAZN 1 Italia
-https://epidd.hundxvision.co.uk/main/secure/eef4ff5141379c0954139080a75a11af19b2c045fdb527921f26bc9f19c4396d/1788888013/dazn-1-italia.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/b1ecc38135b451544ca48a1f461e165c4ad0e999d41eeb2e41d393d7cbf4ede7/1788888810/dazn-1-italia.m3u8
 #EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=hn9vkic8rbfi1ndrym8sw2qh7_image-header_pEs_1723035920000",DAZN 1 Spain
-https://epidd.hundxvision.co.uk/main/secure/e43184b07c6799060894b4e142cb5418185104923d55ae05c2d475cffba3dafb/1788888014/dazn-1-spain.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/6d3a41505bebdf08057edf5f765b016a573f14431aaf11bf71710fc465e7122c/1788888811/dazn-1-spain.m3u8
 #EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=2ouwtae8ad7l1fxviow9bowpk_image-header_pEs_1723118632000&amp;amp;amp;amp;amp;amp;amp;quality=70",DAZN 2 Spain
-https://epidd.hundxvision.co.uk/main/secure/aaac0a929ebdca38086a514997b9b3598461d688ea64bea7b75a442f3032f082/1788888016/dazn-2-spain.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/b12b013533418d3ef932c1a78a57c446e97d5866db9296668456681094329c0e/1788888812/dazn-2-spain.m3u8
 #EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1o4eamzb4env61ddc8wv4ra06l_image-header_pRow_1720521601000&amp;amp;amp;amp;amp;amp;quality=70",DAZN 1 Portugal
-https://epidd.hundxvision.co.uk/main/secure/6fcd08bb5e0a0d573041cf5f35c6ef05d27aa44916809a731cf44e025498f66d/1788888016/dazn-1-portugal.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/e66ae996545509453cd5103bee166b7f5ddce1143990ad5f245ff5f49a4c97d8/1788888813/dazn-1-portugal.m3u8
 #EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1owzb99m9mnzy15hjxolpukwul_image-header_pUs_1771501796000&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quality=70",DAZN 1 USA
-https://epidd.hundxvision.co.uk/main/secure/080670ebee06cb2199c5cd386fb6a2aaae3cd17c5b8ba9f9734924b59b588b50/1788888018/dazn-1-usa.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/c34eea58427cf99c5a53a3bf2848b826d31e9c5dd4406c74a98bcaaa8e1be454/1788888814/dazn-1-usa.m3u8
 #EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=14ln25pmjdv031ejxsmg8dczsu_image-header_pEs_1723117975000&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quality=70",DAZN F1
-https://epidd.hundxvision.co.uk/main/secure/f738a93375ab4dfb7b404c436464def5d54500cc3a4e1821213151a39a751c90/1788888018/dazn-f1.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/527033334238adbf774acfc900337c2b31511b02306cbde8ae50f2f608dede7f/1788888815/dazn-f1.m3u8
 #EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1weziux6zy5mb16pev002ax1yu_image-header_pEs_1723118324000",DAZN LaLiga
-https://epidd.hundxvision.co.uk/main/secure/a32dd02b58c0025d4bdf2e877fc115fac6e1d42fc48d5894cbcb2a94e91a28d2/1788888019/dazn-laliga.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/a7e79b1ace49f8a5bc700ba52b6bd4a882c07d87a4a1e03364807f1e0a348cb2/1788888816/dazn-laliga.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/k2rbB1jc/e35d6be84084fed1d756c39242f13163.webp",Discovery Channel
-https://epidd.hundxvision.co.uk/main/secure/8273ba0bef00ee536e3c9ebc49e524b6c93b3a3d899776650142f87e8e139ea3/1788888020/discovery-channel.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/263dd4b1525056e5c405bcafada91727c755e15f0971cfe14276159262084207/1788888817/discovery-channel.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/wFmT9Q5t/Discovery-Family-ID-Let-s-Go-Yellow.webp",Discovery Family
-https://epidd.hundxvision.co.uk/main/secure/08f0bdb985d67b09fe2b8a55268d3d07909da91c8cd68d688b9fd6a814985f1a/1788888021/discovery-family.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/f470476396409b6a8b59e6e266f7ab66424d085bfeb0c0df0bb1b442ce1e8725/1788888818/discovery-family.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/20MgSXjy/featured-Image-1767979538707.jpg",Discovery Turbo
-https://epidd.hundxvision.co.uk/main/secure/019a4d88fd3c997616659fdd00e38236b4e8b8a66844b72e9a0b69a57c157885/1788888022/discovery-turbo.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/c472ddb2bc83c7cce3362de1a62b934494bed01ee08533320ea355ef75c1cb2c/1788888819/discovery-turbo.m3u8
 #EXTINF:-1 tvg-logo="https://vignette4.wikia.nocookie.net/logopedia/images/9/93/Disney_Channel_Original_2014.png/revision/latest?cb=20140705213010",Disney Channel
-https://epidd.hundxvision.co.uk/main/secure/c5760fa30601a72b40e1836bef9a62f90d3fc7deb4a5c50262e9ec11e1d8d2fb/1788888023/disney-channel.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/7b05fdc21dbd2160ed0be3799c6ff81c8ffcc46479a9d0180f135c068ae27fa9/1788888820/disney-channel.m3u8
 #EXTINF:-1 tvg-logo="https://thewaltdisneycompany.com/app/uploads/2021/02/021221_Disney-Junior-10th-Anniversary-00.jpg",Disney Junior
-https://epidd.hundxvision.co.uk/main/secure/0c92cab780625a28a77625eedab586ec003a61e42dd9c85d9646d0ccbe08347e/1788888024/disney-junior.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/6e8c6d5ff459e888feaa1961faefe97dd1cf96073e195cb5b3fb01276aca51b3/1788888821/disney-junior.m3u8
 #EXTINF:-1 tvg-logo="https://www.laughingplace.com/uploads/2015/10/d128457e3b3ab8c050f306aa8e23666b9b05d3cc.jpg",Disney XD
-https://epidd.hundxvision.co.uk/main/secure/a3a086ecd8098c972ae1e04617c316e5cc4df69ddd35d96d04d1a4d602953feb/1788888025/disney-xd.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/ba023ddd0eb212881b1cf24a609a2e1ebd87dcf69262d9ad64c8ca5e6641b145/1788888822/disney-xd.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/willthequeencome/img-cdn/100659.png",Eleven Sports 1
-https://epidd.hundxvision.co.uk/main/secure/7a6869f2c100f0dfdd4bdc82665c1ebfc1629880f19ec922e740e8e0acb827fe/1788888026/eleven-sports-1.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/a24082c423177c0a31461c0308d59cdd687abe7bd5bb55e375f13103dac3c720/1788888823/eleven-sports-1.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/willthequeencome/img-cdn/100659.png",Eleven Sports 2
-https://epidd.hundxvision.co.uk/main/secure/dbed8ef00e7e5abe7d6f23f5e1c3347a9e2dd8b23614fcc633836246bf4df441/1788888027/eleven-sports-2.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/108ed54528f3784cb1664873433ec1cb7a08b85a6e55ceee3c7fbec164522f41/1788888824/eleven-sports-2.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/willthequeencome/img-cdn/100659.png",Eleven Sports 3
-https://epidd.hundxvision.co.uk/main/secure/1b1ac63ce0b727e55772a7078f81fb2842bd5865b87f14972f04bed59d4c17ca/1788888028/eleven-sports-3.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/cddc71f0a11614d70fa128786d156022fdb39bc2a91ca9826317b8d9e4dbee60/1788888825/eleven-sports-3.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/willthequeencome/img-cdn/100659.png",Eleven Sports 4
-https://epidd.hundxvision.co.uk/main/secure/fa237b9b26ab156384e8f2e246a150e5b9477e1bfba17d10a8a521807d3b03d8/1788888029/eleven-sports-4.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/43fb8747c1407196d00b50224a1d23463d41a950944493d24d565abc3cf6119d/1788888826/eleven-sports-4.m3u8
 #EXTINF:-1 tvg-logo="https://a1.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fespn_logos%2Fespn_red.png",ESPN
-https://epidd.hundxvision.co.uk/main/secure/35fbc847dac7bb82eac32de46323b84329a00fc69252e35b42dd73767576521b/1788888030/espn.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/eb0ece3242912db62a43d483c9b5ce97dfbff589edcac9643e5aa98841851122/1788888827/espn.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Y7zHmbbz/i.png",ESPN Deportes
-https://epidd.hundxvision.co.uk/main/secure/fbcbf310786b3c7ef1d0ea9e082a32c449b9368ad524c8d4c174394cad0d59c9/1788888031/espn-deportes.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/cd2764030c379a64cca1d1c7d1f06eeefaee590456bc67dd0b31f934244b0245/1788888828/espn-deportes.m3u8
 #EXTINF:-1 tvg-logo="https://discgolf.ultiworld.com/wp-content/uploads/2020/10/ESPN2.png",ESPN2
-https://epidd.hundxvision.co.uk/main/secure/b1bbe58637da3946895759ac2176ca38e05edeb4d5bb8c92ade4aa05518e2e9e/1788888032/espn2.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/eedae92b7c8b2b7ba51a2410635ad73649c9dd411f0430e7c516ac64ff597e99/1788888829/espn2.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/5h4LGFHq/image.png",ESPNEWS
-https://epidd.hundxvision.co.uk/main/secure/0dbb914c17bc7b95f2f9fe0e69a9f86fdfc7678a72e2ad9e74d784a24d990572/1788888033/espnews.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/a4d716c1c38e8e462ca0b225e65138809627018f109c76ce1df5f2283a4fd794/1788888830/espnews.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Lh5jHVDm/ESPNU-logo-1-jpg.webp",ESPNU
-https://epidd.hundxvision.co.uk/main/secure/9d88c321bbf6c4032c89fa8c913db3869e31863355baee08b4ad678a63201df1/1788888034/espnu.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/0df58d7f943fcb099316eca1f2fb9485ff1e16553a161da6cb613547e1b1f976/1788888831/espnu.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/5WcnZbYf/food-network-jpg.jpg",Food Network
-https://epidd.hundxvision.co.uk/main/secure/d56476e6c06a504c6d65b5d58c60627d3af2afa5ddee0ef7d69717eeb299a944/1788888035/food-network.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/e0f63582f8f3231c39d5e0b71d3a2a5760a73af5a93539ea3cfb3269c287e184/1788888832/food-network.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/8JdwqP4/foxusa.png",Fox
-https://epidd.hundxvision.co.uk/main/secure/41229a4813b2ee02fcc655f3ed299cb071c425d9caca49d4f4159ef88ef4e6df/1788888036/fox.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/307ff5e3b7d4497710d26f95b1e9d9420b5fb178dc120ef97ca14a7312d94b57/1788888832/fox.m3u8
 #EXTINF:-1 tvg-logo="https://foxsports-wordpress-www-prsupports-prod.s3.amazonaws.com/uploads/sites/2/2016/12/LOGO-DEPORTES-1040x585.jpg",Fox Deportes
-https://epidd.hundxvision.co.uk/main/secure/618b2762ebfd3280b00ccbce7abffc5841f328579cd2d9a9a57919c53e8ab15b/1788888037/fox-deportes.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/d5ba3f1bfeb4857a95786a893f61e5eeef5dff3089650580d087a957d9657cd2/1788888834/fox-deportes.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/2015_Fox_Sports_1_logo.svg/1280px-2015_Fox_Sports_1_logo.svg.png",Fox Sports 1
-https://epidd.hundxvision.co.uk/main/secure/a909a9f0ac68928a182b22f6f3cd3ce575e23ac2daf2e9a9789fe3b176293ac8/1788888038/fox-sports-1.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/d893e4a0adac559d9600f63ab9f2e15c079199a6ebaec8d92e29de719f682de4/1788888835/fox-sports-1.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/FS2_logo_2015.svg/1280px-FS2_logo_2015.svg.png",Fox Sports 2
-https://epidd.hundxvision.co.uk/main/secure/274f8b675cde7d49f6f8627f50f31d81dd0348e090e84a360eef4c54ac33c03e/1788888039/fox-sports-2.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/0c976b50bc8b6a17763192db1091d927eeb3a0e5e51a41e5b99e099c427b3a75/1788888836/fox-sports-2.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/xS4MkGSL/image.webp",Fox Sports 503
-https://epidd.hundxvision.co.uk/main/secure/52408066557787be16e402c9b8c2eb43b57f09f212ab22515c75a94082e95a77/1788888058/fox-sports-503.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/26f0accffbcc412cd6e2f9069e5be8f872f184899e9879105c660034fa847284/1788888854/fox-sports-503.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/prKZGNLt/image.webp",Fox Sports 505
-https://epidd.hundxvision.co.uk/main/secure/d549af6eb3ea2b58c7015b02669388b9c4d015d07d6d79368543bec9e46513d3/1788888068/fox-sports-505.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/a10d002b8d4aacc352765554c2fb13e43a93f3bd7fc1926fe60323a708cc4aa9/1788888863/fox-sports-505.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Swks4Lmj/image.webp",Fox Sports 506
-https://epidd.hundxvision.co.uk/main/secure/9dc67e5409345e9a3d521b2bf28a043a996965d31c132407595e1f111e126ff7/1788888069/fox-sports-506.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/21617d79586e703abd5a0b5f1ff4439bfb2f610bb75c1cd3e43beed05772b655/1788888864/fox-sports-506.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/7d6VgDVL/image.webp",Fox Sports 507
-https://epidd.hundxvision.co.uk/main/secure/25467f99c074ed819c8beb8e47037eaa01c1d89138280726c4a03b4f457ff284/1788888070/fox-sports-507.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/9b508099fe5a87cdd111306370f3bb0d836edb84bb250b7557b2af8c9d8f6eed/1788888865/fox-sports-507.m3u8
 #EXTINF:-1 tvg-logo="https://static0.srcdn.com/wordpress/wp-content/uploads/2026/01/gold-fx-channel-logo-1.jpg",FX
-https://epidd.hundxvision.co.uk/main/secure/0362592e7e4fd80b8bb3eb0a2831a59a106e1cab0946cee60a293e772af9d25e/1788888071/fx.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/b766a0c541114b395962ed23ba07ac46394bf7387f7abf48d29af1ee86a8acfc/1788888867/fx.m3u8
 #EXTINF:-1 tvg-logo="https://www.awn.com/sites/default/files/styles/original/public/image/featured/50716-buster-creates-brand-id-new-fxm-programming-block_0.jpg",FXM
-https://epidd.hundxvision.co.uk/main/secure/6469a2aae1879e8f68acd87600944c6b3ef5572257fdbfd168cae4efaa55cbd2/1788888072/fxm.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/bf0b413a6152a958d70969a912fe4bcf0ade985cccd660752e523909070510c6/1788888867/fxm.m3u8
 #EXTINF:-1 tvg-logo="https://thestreamable.com/media/pages/channels/fxx/b6fc72ce3d-1756344305/fxx-banner-1536x864-crop.png",FXX
-https://epidd.hundxvision.co.uk/main/secure/5e42fcaad8aa0f5603502cc32402c64d01d409c4f91486753eadd433d7db2db2/1788888073/fxx.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/50d651f83236100a12999ff7071f1f432a2a8aaf698990135999acd6a1aac648/1788888868/fxx.m3u8
 #EXTINF:-1 tvg-logo="https://d2z00kf51ll94q.cloudfront.net//archive/2023/large/ADC102_BCD021B_0.jpg",Freeform
-https://epidd.hundxvision.co.uk/main/secure/77e18b85cfa10cb9705e7fa144c18a33955dd1ec33884edd3624bb5e6313eb26/1788888074/freeform.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/08fd915cdc635c2700b9de16621bb14dc0d6e2da87642365bffc7e72f3835a6b/1788888869/freeform.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/willthequeencome/img-cdn/go3sport.png",Go3 Sport 1
-https://epidd.hundxvision.co.uk/main/secure/58ec5fe36329de88ec51feeeb2168992c2d972b78590597c7be30e4eb4151116/1788888075/go3-sport-1.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/761182408d805d87904c26e9ed808dcee395d32a9d8b0a339ec3ee9e329d5e9c/1788888870/go3-sport-1.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/willthequeencome/img-cdn/go3sport.png",Go3 Sport 2
-https://epidd.hundxvision.co.uk/main/secure/fe81eb138c553bfb657aa5d177bea16386db9e2a6d252cf78698852a599b0090/1788888076/go3-sport-2.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/67623dc5bbeee4adfac61c5a61bc4ede103fbf7d7a0798fcfdfa27c3e2cf565f/1788888871/go3-sport-2.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/willthequeencome/img-cdn/go3sport.png",Go3 Sport 3
-https://epidd.hundxvision.co.uk/main/secure/66fc8141083042dd759704b254c5a75f5da38225300fce50ccf4188e9a89fe02/1788888077/go3-sport-3.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/45a7cd19466363c69a828515c752907a5c6ad308f481703e344a57a0389f1a4e/1788888872/go3-sport-3.m3u8
 #EXTINF:-1 tvg-logo="https://corporate.comcast.com/media/img/1000w/2020/01/corporate_golf-channel-16x9-social.jpg",GOLF Channel
-https://epidd.hundxvision.co.uk/main/secure/57d7ec5d05a361a6788be4be7bd7c67431e5a2f9de2cf88ccfd826ebe774b2d7/1788888078/golf-channel.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/2c1e02724ee7da1ebd5b70cfb5c28d85033aafbc1f067f8d26f9773e968634f7/1788888873/golf-channel.m3u8
 #EXTINF:-1 tvg-logo="https://static.hbo.com/2021-11/hbo-static-1920.jpg",HBO
-https://epidd.hundxvision.co.uk/main/secure/a7a3fcf3cbc9265b142bf1a3d3250b020afe8c967d69e12f73351a6040a70b2c/1788888079/hbo.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/11f5171c006e81109279389483448738d9ded200f08479a23cec50d96331b970/1788888874/hbo.m3u8
 #EXTINF:-1 tvg-logo="https://www.tvinsider.com/wp-content/uploads/2022/03/hbo-comedy.png",HBO Comedy
-https://epidd.hundxvision.co.uk/main/secure/e510a2e6857250e953cc083d601e993267bfa8d1328d54bc55dbc479036a7bb1/1788888080/hbo-comedy.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/1b765a360ed444a85155d3459a8dff69bf2ff70cdb77a7ba19d945d970ca42e9/1788888875/hbo-comedy.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Qv2Mz3ZB/https-archive-images-prod-global-a201836-reutersmedia-net-2016-10-30-LYNXMPEC9-T08-O.avif",HBO Drama
-https://epidd.hundxvision.co.uk/main/secure/467018a17bc87cef3bc4763ef8fc0c06b09228e0573cca4f9eb4ff378f52e63c/1788888081/hbo-drama.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/f1b21af482f306285d879142176062cffa582c2c6664a6873f8de40167766af1/1788888876/hbo-drama.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/TMzmbVYq/maxresdefault.jpg",HBO Latino
-https://epidd.hundxvision.co.uk/main/secure/1f9e4366a71dea31a65d8ba8b98888e87ca85fc748aed921dda98030761204fc/1788888082/hbo-latino.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/44151fdb656ddc24ebea254e87e2e11902db27e73da2e682ba1afb4dd5e1b102/1788888877/hbo-latino.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Qv2Mz3ZB/https-archive-images-prod-global-a201836-reutersmedia-net-2016-10-30-LYNXMPEC9-T08-O.avif",HBO Movies
-https://epidd.hundxvision.co.uk/main/secure/3abd62d0c24c0d648aaa8c1db7b5b52e811bcfb325dbad81d21a5406d43f78e4/1788888083/hbo-movies.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/471c5812a2a2255ea4f97036539fd69761aeca249ad85573f6eefa1fc5e12a2a/1788888878/hbo-movies.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/gbtDnLhS/hgtv-jpg.jpg",HGTV
-https://epidd.hundxvision.co.uk/main/secure/e50f569a3ee10159142e5721a121f677aa4e6bc247d496aa0c6da58adcec49b9/1788888084/hgtv.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/360eac861f264c0e8c49a88e40150e7497ca40d3b7c845d5eed1032932b5084b/1788888879/hgtv.m3u8
 #EXTINF:-1 tvg-logo="https://img.mlbstatic.com/mlb-images/image/private/t_16x9/t_w2208/mlb/xtkynqe5wgtzaddnsus2.jpg",MLB Network
-https://epidd.hundxvision.co.uk/main/secure/d8b5291c9c7a842a59b04d9573d74918ac12943fd3c0c3d9f528618dc8d40194/1788888085/mlb-network.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/83ee370c830b800e9e057533575c32f47c45b713754fb808bddf420be2f00dcc/1788888880/mlb-network.m3u8
 #EXTINF:-1 tvg-logo="https://sportbikesincmag.com/wp-content/uploads/2024/11/New-MotoGP-Logo-sportbikesincmag.com-4.jpg",MotoGP Channel
-https://epidd.hundxvision.co.uk/main/secure/c04f41abb6bb56c7a6d6030aa7e32a87c63515316a26187e5ba7ad901217074c/1788888086/motogp-channel.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/caba9329036d3f3b8c00dee849dc4e9a89b1253a216fd9ba69640a4e207bcab8/1788888880/motogp-channel.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/willthequeencome/img-cdn/movistardeportes.png",Movistar Deportes
-https://epidd.hundxvision.co.uk/main/secure/d4fc4a617d2d9336e22133fe1f933bab370c5a850def28ffb0d8bca9b7eba824/1788888087/movistar-deportes.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/73db26dcef0deba4bd0a5a2d75a0f87ef921b0a9aeb51b0b454c16607145b302/1788888881/movistar-deportes.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/willthequeencome/img-cdn/movistardeportes.png",Movistar Deportes 2
-https://epidd.hundxvision.co.uk/main/secure/15bbd93b7d29d5a730d2c6623739f2d5bd7a5aae6bd3163eb15df7785b71425e/1788888088/movistar-deportes-2.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/13ce6cb3ad5b0ed5b061964038334f55a378726c8773c8d619a827fcdd5656ac/1788888883/movistar-deportes-2.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/willthequeencome/img-cdn/movistardeportes.png",Movistar Deportes 3
-https://epidd.hundxvision.co.uk/main/secure/51f23c8f0a1fb998dfc1762522554259f5a76ececd529cfe029e1ef4e295e949/1788888089/movistar-deportes-3.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/1c8d816fee8345ac313e8257148c2241e9a39a8ff9ce6b319c5a68440ae3bbce/1788888883/movistar-deportes-3.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/willthequeencome/img-cdn/movistarlaliga.png",Movistar LaLiga
-https://epidd.hundxvision.co.uk/main/secure/2b1fdb6f964a46fa0ae934a849736c4d9cf2650a124ade1a10dacacb79f171cd/1788888089/movistar-laliga.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/b5797be52d85c95532e16534bba8899efa5cd40277e400e4cbca63e9f4429f8e/1788888884/movistar-laliga.m3u8
 #EXTINF:-1 tvg-logo="https://imagenes.hobbyconsolas.com/uploads/imagenes/2026/05/11/6a01f2422d3b19-96205427.jpeg",Movistar Plus
-https://epidd.hundxvision.co.uk/main/secure/abb89fc35c89eb1f13ccc6986344b61bf7d1c737afd18cb9525766f3460a010f/1788888090/movistar-plus.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/46028834ddcce7db4285aead3c7bc3db63b6c58b15696258b64869f8f8e351d3/1788888885/movistar-plus.m3u8
 #EXTINF:-1 tvg-logo="https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/12/mtv-logo-1.jpg",MTV
-https://epidd.hundxvision.co.uk/main/secure/8cc60e66e1e3d396a6d760bbb2afff4bfd437bd5701466b6ea6505b08ea7839c/1788888091/mtv.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/5224a62aa26e3dbb08e7fe3c7d50a142ce4b513eb015328cd4edbdce348b92eb/1788888886/mtv.m3u8
 #EXTINF:-1 tvg-logo="https://static.cdn.turner.com/styles/header_image_1500x500_cropped/s3/nba-tv-16x9-1.jpg?itok=6H8mrlyR",NBA TV
-https://epidd.hundxvision.co.uk/main/secure/ef8c112d4e3c1a07f73c92e5b0f102692e1054eecb9b192509cbfd3508029a9f/1788888092/nba-tv.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/b070c33c8d8081727e953b7035d8c17c0ca2e5e54d10f415fd5365e99f27fa4f/1788888887/nba-tv.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.mos.cms.futurecdn.net/zP42nmS7MRj2kvBqNEs8CE.jpg",NBC
-https://epidd.hundxvision.co.uk/main/secure/e3bdfab40c8d4bc58872e3e13d1b63ea93d1681c2ea3be51e7450250a113cac8/1788888093/nbc.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/ad022ee3e8a6b72b47a9d8e67d9f5313371a1aa6c02dfdd2dcf38070e3261347/1788888888/nbc.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.mos.cms.futurecdn.net/d7jWexxhtezRZ6ryLHyKmd.jpeg",NBC Sports Bay Area
-https://epidd.hundxvision.co.uk/main/secure/f98d102fb2f3019f66713ae1756fd13b2d8e1e259596dc15675565166d887d69/1788888094/nbc-sports-bay-area.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/58a77c74407d1f1877104bdedffc676f623ad8e679172e78cc1988274722079d/1788888890/nbc-sports-bay-area.m3u8
 #EXTINF:-1 tvg-logo="https://media.nbcsportsphiladelphia.com/2023/04/Philly-Landmark.png?resize=1200%2C675&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quality=85&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;strip=all",NBC Sports Philadelphia
-https://epidd.hundxvision.co.uk/main/secure/2a2460138e55fff0f3bb5abdec965b77c1f3772e1a8b0b9d40b5a871e6489290/1788888095/nbc-sports-philadelphia.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/5dbf32d24aec477c83ff7f151e317d85a7225d83fb05716bdd1cf7982a1eea16/1788888890/nbc-sports-philadelphia.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/ZRsTndvV/tfki7njrm3y8jycbtkrx.jpg",NFL Network
-https://epidd.hundxvision.co.uk/main/secure/b5e888cb3a12db9ecddeca54657346c39676a7f8ab4411fa8fcaefe598cc1a9d/1788888096/nfl-network.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/0e963cf57a2e8dbc4afea77203e06984be0f8da536a81b759ae053159f39149e/1788888891/nfl-network.m3u8
 #EXTINF:-1 tvg-logo="https://media.d3.nhle.com/image/private/t_ratio16_9-size50/prd/lhum6z3hyaga9ahnjow0.png",NHL Network
-https://epidd.hundxvision.co.uk/main/secure/f1ddd3831a1ee7554bd38a6f87290514fe73fbf626bf9c3f760c77958d68456a/1788888097/nhl-network.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/eb5575b9159e54bdfe8176bc2d12d2c04b62939a985407ba20c5c49111f1f8f5/1788888892/nhl-network.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/xS6CMxZD/nick-jr-logo-2023-4.jpg",Nick Jr.
-https://epidd.hundxvision.co.uk/main/secure/e0742ee2d51981cb8a1ee5e63f9e42aad5573a846ce086a50c61f33a079efdd5/1788888098/nick-jr..m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/7c3072b67e80a10a61f33755f9d8fcb207d76c341bce9a8fd0bdabff08452fc4/1788888893/nick-jr..m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/xSM8bDYh/roger-nickelodeon-graphic-design-format-webp-width-2880-8-Yj-L2u3-KSI20j-HDQ.webp",Nickelodeon
-https://epidd.hundxvision.co.uk/main/secure/211b6900755e214b47df0167d031e8798f4567e82f19bb7c090e34fda726fc08/1788888099/nickelodeon.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/681f370b76c06465cb645a2dc52c4f2e240000c3f34cef83f707db7bd801ee4e/1788888894/nickelodeon.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/XfX32tyx/nicktoons-logo-2023-rebrand-2.png",Nicktoons
-https://epidd.hundxvision.co.uk/main/secure/3546381f16601be4cdf77f131ffbaec0e2dcb7e61773b9b9c21fbe67d08997ae/1788888100/nicktoons.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/82d30318e7423ef7adaf9b53481a5ad013af6b155a351acb950a36a0e77963f0/1788888894/nicktoons.m3u8
 #EXTINF:-1 tvg-logo="https://staticeu.sweet.tv/images/cache/v2/channel_banner/COEd/3809-polsat-sport-1-hd.png",Polsat Sport 1
-https://epidd.hundxvision.co.uk/main/secure/93a1aa616be7558e5e9d27b2664afad36c9688c85779a6ed2855bb9915f4e237/1788888101/polsat-sport-1.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/770fbdbc9b849ca4fe90b33b97fe3c216bba7e04c9f713ccfc803aca7bfdcfff/1788888895/polsat-sport-1.m3u8
 #EXTINF:-1 tvg-logo="https://staticeu.sweet.tv/images/cache/v2/channel_banner/COId/3810-polsat-sport-2-hd.png",Polsat Sport 2
-https://epidd.hundxvision.co.uk/main/secure/7fefca0a6b19cbcd51c010dce3fd6c21dd8f0535f8a580f4f4adf2996db6c221/1788888102/polsat-sport-2.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/f81d8953fa12171bcf565911942073707faa2f4284459eb339108c92cf60bfcb/1788888896/polsat-sport-2.m3u8
 #EXTINF:-1 tvg-logo="https://staticeu.sweet.tv/images/cache/v2/channel_banner/COMd/3811-polsat-sport-3-hd.png",Polsat Sport 3
-https://epidd.hundxvision.co.uk/main/secure/8ea500a369f6c55fddb48995ebd27e78c86936c6abcd48f85bb8ea0206f35055/1788888103/polsat-sport-3.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/a2d5bdb3da05990eb5cbc061cb028c3fb9726a721b53b29ab615e8e3293108aa/1788888897/polsat-sport-3.m3u8
 #EXTINF:-1 tvg-logo="https://staticeu.sweet.tv/images/cache/v2/channel_banner/COUd/3813-polsat-sport-fight-hd.png",Polsat Sport Fight
-https://epidd.hundxvision.co.uk/main/secure/bb4d56149ee59f138925bc3fa0f912b02377ba96e1193d476be2c005719e56dd/1788888104/polsat-sport-fight.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/25a202c9e6e133c173d9098fa82d07c883661a2e43cf201fa3f06c43a21b966e/1788888898/polsat-sport-fight.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/willthequeencome/img-cdn/premiersports.png",Premier Sports 1 IE
-https://epidd.hundxvision.co.uk/main/secure/a3c43ee9be9c460fbbf76cccabdd77ee4c2cd49cabf4e3b088fbbcf19accc061/1788888105/premier-sports-1-ie.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/b7988ea19c96164e4cada3b823e34347412c5301e98e1534bc1bb7588dd6f0f9/1788888899/premier-sports-1-ie.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/willthequeencome/img-cdn/premiersports.png",Premier Sports 2 IE
-https://epidd.hundxvision.co.uk/main/secure/ca7e5b1fd295183b461c7762d63f0aae681425f8e2ab8cb0c4d58bcc6a5d823f/1788888106/premier-sports-2-ie.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/6e2568fa60692ba082144232e4d183be788e38968b8ec5a76d293dd37842d142/1788888900/premier-sports-2-ie.m3u8
 #EXTINF:-1 tvg-logo="https://s3.glbimg.com/v1/AUTH_36abb2af534644878388f516c38b89ac/prod/home-share-1b75cdaa.png",Premiere
-https://epidd.hundxvision.co.uk/main/secure/2ceeaaee300d06560b400af39e16e9c75f2629b61983cf6a7c9eaf94d5f06950/1788888107/premiere.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/f3b82c6d409ebace60b63fdd69d256accda45c9b3734390bd0a3393e9f79b982/1788888900/premiere.m3u8
 #EXTINF:-1 tvg-logo="https://cdn-cs-images.racer.com/v3/assets/blte77f57883ea46be1/bltb30b537c79808b35/680f2c517c8c98109d720e49/Racer_Network_1920x1080_Presser_V1.jpg",RACER Network
-https://epidd.hundxvision.co.uk/main/secure/0f9f8d1249b9efbc80608071a3c0824e3b8bca3d96f125755cc90ece1feaf7f2/1788888108/racer-network.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/cefee5527ea22c17764b3381bdebfecb83c9d561341bdede5d81bea5def5824a/1788888901/racer-network.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/v7vcNY4/Showtime-Logo.webp",Showtime
-https://epidd.hundxvision.co.uk/main/secure/56abfdba917f28dadc523848d339b7c05650f36f7aa77b3db349907dc2a4bfd4/1788888109/showtime.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/7178a655b22e0591f7680a75fbf78e61039815a5ad6232f29ecdb7b066c023fb/1788888902/showtime.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/8gCRbv0s/Showtime-2-svg.webp",Showtime 2
-https://epidd.hundxvision.co.uk/main/secure/6a6970b9f8c4d918068124146d426e5d4fc9827aaca2d628fb07a4585c122edd/1788888113/showtime-2.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/cb4021481a68a8c04e53c39feb8f8152f68a9dc1220245e9d19ebd78c9470d3e/1788888903/showtime-2.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/1t5fNwpQ/Showtime-Closing-2013.webp",Showtime Extreme
-https://epidd.hundxvision.co.uk/main/secure/170f17a3e438ff3df5d55229c529f13cb345aec9557d17fcf5a1510873b26d75/1788888114/showtime-extreme.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/cbd5938fa031ccdb24644e8ed4e358cba1b747fd8c0d36c26e6faf2819229861/1788888904/showtime-extreme.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/1t5fNwpQ/Showtime-Closing-2013.webp",Showtime Family Zone
-https://epidd.hundxvision.co.uk/main/secure/b7e590640dba06b46bc039e887284e6b8b2745f5e82bc6de864ebfd56031cebd/1788888115/showtime-family-zone.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/d9deee83373380946f2ce700ab261bc58fcae9f85c941054c103a099f455f869/1788888905/showtime-family-zone.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/1t5fNwpQ/Showtime-Closing-2013.webp",Showtime Next
-https://epidd.hundxvision.co.uk/main/secure/abdc16310e098c5a353887af65cbd3f77f12283b3cdc2e56e770a7a8c11b2b8c/1788888116/showtime-next.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/b7b51393ee5f5d4150588cb46bceb4ca57999e8b3e21630435a6b2d77402e208/1788888905/showtime-next.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/1t5fNwpQ/Showtime-Closing-2013.webp",Showtime Women
-https://epidd.hundxvision.co.uk/main/secure/3d2d81b7ec25e3668d3e2214384068baa7020ccec9fb786192548df33a0629f1/1788888117/showtime-women.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/bf08b5f1181beec6d1326c1b2dd8214624330efcd4207bf948b68c0d5127995e/1788888906/showtime-women.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/v4NvkZst/Untitled-design.png",Sky Sport 1 NZ
-https://epidd.hundxvision.co.uk/main/secure/7de5e66d8113e3a3158c56a900b22dcddf49fa04daff1e662d5c8f7b9a088ded/1788888118/sky-sport-1-nz.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/e1a3139f891b7a5220a0f88e2fa2d648915c6ce852508b7ccd4a18d28da3821c/1788888907/sky-sport-1-nz.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/v4NvkZst/Untitled-design.png",Sky Sport 2 NZ
-https://epidd.hundxvision.co.uk/main/secure/edf7be728cabf2be0668430f161d45be4cc61610aed1b80aa73643186bebdcce/1788888119/sky-sport-2-nz.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/08dd0e0262161bc8c4d273abbe3b57ee5856c3f1869e5f78a514f6432e5b8231/1788888908/sky-sport-2-nz.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/v4NvkZst/Untitled-design.png",Sky Sport 3 NZ
-https://epidd.hundxvision.co.uk/main/secure/a756e58066cbfc715aca926b07da7780924d92a7e64f8dabec7d4f5508752974/1788888120/sky-sport-3-nz.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/d7ef998721b5ab4ec95bef28499901380d0ba285a4cf37229fa6fadbce198212/1788888909/sky-sport-3-nz.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/v4NvkZst/Untitled-design.png",Sky Sport 4 NZ
-https://epidd.hundxvision.co.uk/main/secure/09ac6cbe858fa495eab713e32ef472c82922d1d0332be060f6919250545d050e/1788888121/sky-sport-4-nz.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/8323a598e45b98150ffc55f6682e7340d20a11a210fcbdf5830a8cff66f37799/1788888910/sky-sport-4-nz.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/v4NvkZst/Untitled-design.png",Sky Sport 5 NZ
-https://epidd.hundxvision.co.uk/main/secure/80d585548dd3e48d5e7f2a782266d4e440f682078a2466d2c2e4792d710e68d0/1788888122/sky-sport-5-nz.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/78972b6bbb5af5f7058bb8f3244a9087a69c85d02fcda23a9a0af4df8eba4593/1788888910/sky-sport-5-nz.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/v4NvkZst/Untitled-design.png",Sky Sport 6 NZ
-https://epidd.hundxvision.co.uk/main/secure/162ede6f6d15d6f68d42dfc9152386d3153d0b22233c9367af6acd140a4183b1/1788888123/sky-sport-6-nz.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/e5aeccdc4384af27262fbbdba421c93186c6952cd50d5d1f8793b59642b23bbc/1788888911/sky-sport-6-nz.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/v4NvkZst/Untitled-design.png",Sky Sport 7 NZ
-https://epidd.hundxvision.co.uk/main/secure/dc1295967aab55864f6cdff3f0f18f90d3e8980eabaeb236d768e066eefa3e2e/1788888124/sky-sport-7-nz.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/b5fa4f9b4317ce08b24e5996fdd036480e62773bb8148a20bea39a055547924e/1788888912/sky-sport-7-nz.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/v4NvkZst/Untitled-design.png",Sky Sport 8 NZ
-https://epidd.hundxvision.co.uk/main/secure/c49bd842cd9f430ae00ae93261f9f8c64590ecde33efb840e7981b97d3a495f8/1788888125/sky-sport-8-nz.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/449fcfbca9e01e0023437c294bd07a5c482a53e2327b17e92f579ce6cadb8ccf/1788888913/sky-sport-8-nz.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/v4NvkZst/Untitled-design.png",Sky Sport 9 NZ
-https://epidd.hundxvision.co.uk/main/secure/1a0d7edf1eb640a44b413e3ca53c0ced7f6c9c04ddb228b1c86e7b62ab2294ae/1788888127/sky-sport-9-nz.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/c44ba9f8fc98951ab9f9d80a8af018ccee0131dbcf70125d1d34d9146c223f44/1788888914/sky-sport-9-nz.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/v4NvkZst/Untitled-design.png",Sky Sport Select NZ
-https://epidd.hundxvision.co.uk/main/secure/1dd4eadb4de88505725c2a73aa60a51bb5a1723397284392f9da036fd0531799/1788888128/sky-sport-select-nz.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/acc8e75a6e119d4ab9131afebc4fb4884b8a9eefd50ac518767cf140ce545a5d/1788888915/sky-sport-select-nz.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/willthequeencome/img-cdn/skysportsaction.png",Sky Sports Action
-https://epidd.hundxvision.co.uk/main/secure/ca5b1481274b52581a4c550d4dd81a045433373888ae0dfbaf5baa0b1d049d8e/1788888141/sky-sports-action.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/db10ba8bfee8b284d241d8fda710cbfc49340a25d8529956e785a462fa70d41f/1788888923/sky-sports-action.m3u8
 #EXTINF:-1 tvg-logo="https://e0.365dm.com/17/07/2048x1152/skysports-sky-sports-cricket-podcast-sky-cricket-podcast_4004801.jpg",Sky Sports Cricket
-https://epidd.hundxvision.co.uk/main/secure/43612880312a2b19285cf088744840e493435c5c2f6e1d4e33dba4b9b0aa0407/1788888141/sky-sports-cricket.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/ae33757b2821241666e8ae48c4c7eddd5c2c65bfb28223120addfc3a293a7444/1788888924/sky-sports-cricket.m3u8
 #EXTINF:-1 tvg-logo="https://e0.365dm.com/21/03/1600x900/skysports-f1-2021-graphic_5299452.png",Sky Sports F1
-https://epidd.hundxvision.co.uk/main/secure/a2525e0c798b61ca04b3789b450a3295ebcfe9240711ae3bfc1f569cb3b49fd4/1788888143/sky-sports-f1.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/120de3633b33df9d345d52be9432fcfd7fedf1d1340053358c591a97954b6a98/1788888925/sky-sports-f1.m3u8
 #EXTINF:-1 tvg-logo="https://images.squarespace-cdn.com/content/v1/6380a5b12f7b6f632e16ce77/46d62da8-e650-4d2b-a5bc-48a5648edb8e/Beth_Mead.jpg",Sky Sports Football
-https://epidd.hundxvision.co.uk/main/secure/365fc1e0dd4b7f257a07f14834f4510a97de6cee758b032d74d34d7a5f3f7d27/1788888147/sky-sports-football.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/532195ed07f159469c9ef598d6e15dbbab5cba4b785c59878e5290a5d0dfa458/1788888926/sky-sports-football.m3u8
 #EXTINF:-1 tvg-logo="https://e0.365dm.com/23/05/1600x900/skysports-golf-sky-sports-golf_6158933.jpg",Sky Sports Golf
-https://epidd.hundxvision.co.uk/main/secure/f956ac2e6e050cdd4a91a61ef3cad4c5b25fc87aa8140ee0422cec9b23e5852c/1788888148/sky-sports-golf.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/41e1bb56c6d4be10cedd365cf2aebbb8107dd4c1b8bebf176684c3616e2b68c4/1788888927/sky-sports-golf.m3u8
 #EXTINF:-1 tvg-logo="https://e0.365dm.com/17/07/1600x900/skysports-all-new-rebrand-f1-premier-league-golf-cricket_4001810.jpg",Sky Sports Main Event
-https://epidd.hundxvision.co.uk/main/secure/99c49f590b9477376588c9437074e7029a11b687fefcf2e8b43a23c98b9faf66/1788888149/sky-sports-main-event.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/324126947675131381f4188e37096607e7c21ec7eb6b7c7111aaaa4d0d6bd180/1788888927/sky-sports-main-event.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/willthequeencome/img-cdn/Sky_Sports_Mix_Generic_ID_2017.webp",Sky Sports Mix
-https://epidd.hundxvision.co.uk/main/secure/b54e60c66af9034e7c35bb7cb87eb48081c14bdf14fc769ab2419e321870f5ea/1788888150/sky-sports-mix.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/c826fbdcf719595b6efe47c184a4fc496bc8f244d6cbb35fa3030389f356260b/1788888928/sky-sports-mix.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/willthequeencome/img-cdn/image.jpg",Sky Sports News
-https://epidd.hundxvision.co.uk/main/secure/c2055c69f90afda199657d2d59aca9b4de8327b690213b62d994b0e53af11369/1788888151/sky-sports-news.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/5bd7ebeb60103f72787c728ecc5932d37166ffb76076a0f3a02ea3e31839face/1788888929/sky-sports-news.m3u8
 #EXTINF:-1 tvg-logo="https://e0.365dm.com/25/06/2048x1152/skysports-premier-league-fixtures_6937276.jpg",Sky Sports Premier League
-https://epidd.hundxvision.co.uk/main/secure/8b2226859599cc05ea81b2bf578c4368665303448e28c9e0141aeee0df707f50/1788888152/sky-sports-premier-league.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/c5e56aa4220107de624b87602f2be6cd2e5b6085fbcd9dcfb3ce2fc8244ee3c3/1788888930/sky-sports-premier-league.m3u8
 #EXTINF:-1 tvg-logo="https://e0.365dm.com/23/07/2048x1152/skysports-racing-league-sky-sports-racing_6230990.jpg",Sky Sports Racing
-https://epidd.hundxvision.co.uk/main/secure/cfbb65a63f4f2f7402473f1dc6baecd4c19dd8f5bca0928fa92dce93417a3a76/1788888153/sky-sports-racing.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/d6b90304459f7e928010be7450887666aad233c107142fe6232e4666dbcefc3e/1788888931/sky-sports-racing.m3u8
 #EXTINF:-1 tvg-logo="https://e0.365dm.com/24/01/2048x1152/skysports-sky-sports-tennis_6437709.jpg",Sky Sports Tennis
-https://epidd.hundxvision.co.uk/main/secure/069637394af1e5a8fb542b5270b7b07f8fa1208bf82b724507770d07fe29b86f/1788888153/sky-sports-tennis.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/f7827afb9d6f883f3e39b5f96d571288067db3758edff6df87726c1541b640bf/1788888932/sky-sports-tennis.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/willthequeencome/img-cdn/085457534.png",Sony Sports Network
-https://epidd.hundxvision.co.uk/main/secure/fb17aebd35598864dd6c71a0d0699193e491f51359c41a737b76e85646b55ef6/1788888155/sony-sports-network.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/6bad5c7021e869d7b00bf683994c9dbd53e6d531f275e0dd5a643701a5ba59ff/1788888932/sony-sports-network.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/willthequeencome/img-cdn/085457534.png",Sony Sports Network 2
-https://epidd.hundxvision.co.uk/main/secure/a13578427ea7885a2c42f5640991b7d044d8ab6808adfab75c4c74a427f8a5a6/1788888155/sony-sports-network-2.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/d343909f31de88b17766ee44bfcd44061ddadcfdc4816a074714370f6023f194/1788888933/sony-sports-network-2.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/willthequeencome/img-cdn/085457534.png",Sony Sports Network 3
-https://epidd.hundxvision.co.uk/main/secure/a68dce13d1b8ac995e66288ceca80633e85b868d1d402f9af2a231e7c3e70f3d/1788888156/sony-sports-network-3.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/3777654c96bfcfc78e16c083317048a4c5bf2ed0990366f01707129ff8f35316/1788888934/sony-sports-network-3.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/willthequeencome/img-cdn/085457534.png",Sony Sports Network 4
-https://epidd.hundxvision.co.uk/main/secure/d5d1215107cf256d34cd6cf9df36ada0b0ffcc18b05d2126b3d0c8532c4e37f3/1788888157/sony-sports-network-4.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/eac1d6f7a8778383faef0bdbe6f98830e64c8f9e09928da121e47a0833f7466c/1788888935/sony-sports-network-4.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/willthequeencome/img-cdn/085457534.png",Sony Sports Network 5
-https://epidd.hundxvision.co.uk/main/secure/d21955a65844519e9935329f22bd2c519de7a035c5a7ba92763229308421def9/1788888158/sony-sports-network-5.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/44dadbe3b3d62dbcf91a72d22f2d06e28416008854aeac68ecd35f10246250c3/1788888936/sony-sports-network-5.m3u8
 #EXTINF:-1 tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=712wbfqz8apl1k09rf681eqxd_image-header_pDach_1661948855000&amp;amp;amp;quality=70",SPORTDIGITAL FUSSBALL
-https://epidd.hundxvision.co.uk/main/secure/d2641cea67e30070453f6d052497a4493d44f956aa59c7ff43a625103b8f463f/1788888159/sportdigital-fussball.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/73ba19b7079ccab7d5c5fd19292fe5554f8bd9073222bf85eaaf22d767328e49/1788888937/sportdigital-fussball.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/willthequeencome/img-cdn/sportv-pt.png",Sport TV1
-https://epidd.hundxvision.co.uk/main/secure/305442fccc9d9a9325cefd9944e97c34f95ff2a34fd2883b237b368775cf28f4/1788888159/sport-tv1.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/9c50280e5ce3888a2a936d8288e053d0708f01d6075a3b85de45bebb4882a88b/1788888937/sport-tv1.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/willthequeencome/img-cdn/sportv-pt.png",Sport TV2
-https://epidd.hundxvision.co.uk/main/secure/06138bdf70695b7ed85f62c041506c1e69c92be7f90712824beba888b88a0ff3/1788888160/sport-tv2.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/b89f8e3968f1fdea44d572033aea1fe02f8ea0e1396c7449fb135f7a9caa019f/1788888938/sport-tv2.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/willthequeencome/img-cdn/sportv-pt.png",Sport TV3
-https://epidd.hundxvision.co.uk/main/secure/f3b8e6818bace3286441dd556c429bb425e50016ac5c4d682f75f193c81b7d5a/1788888161/sport-tv3.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/0d426a99e6d347bbc9ead265b5d792d9e3d488cd1e151c9a57634f3cbab738ee/1788888939/sport-tv3.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/willthequeencome/img-cdn/sportv-pt.png",Sport TV4
-https://epidd.hundxvision.co.uk/main/secure/9a9be1b45326362dc013b7b7bcee8d6e12e4d9a745eb8af662bb6003338e2ef3/1788888162/sport-tv4.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/77a5e401a59278250c491564f186a98acc60d761d928233d599a40db3c5afb32/1788888940/sport-tv4.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/willthequeencome/img-cdn/sportv-pt.png",Sport TV5
-https://epidd.hundxvision.co.uk/main/secure/c1c81baff9216e1b1dcf84fdb13cb9a7fe65c81341c0432a7fcce1ff489a4581/1788888163/sport-tv5.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/050409194cb18602b14217645eb191a99fb96bdb002289d19d41701b846343c7/1788888941/sport-tv5.m3u8
 #EXTINF:-1 tvg-logo="https://careers.starz.com/wp-content/uploads/2025/01/STARZ-LOGO-IMAGE.png",STARZ
-https://epidd.hundxvision.co.uk/main/secure/fb5ecf77313387811932efef1ec4f490bcaf15ec2cc5ea61419811efc2fad017/1788888164/starz.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/2bfbecc7706980b16ddae7f2b0e25516077474d866abddfc003f6e72bdae2004/1788888942/starz.m3u8
 #EXTINF:-1 tvg-logo="https://careers.starz.com/wp-content/uploads/2025/01/STARZ-LOGO-IMAGE.png",STARZ Cinema
-https://epidd.hundxvision.co.uk/main/secure/c0597fea5641e1db4804228cea576491faa97cfbfc9db144cbdfdc87c205ac68/1788888164/starz-cinema.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/d2b7f5e9f58d73e4f7f2e192c0659994f9526efce48ed8f6d8145a2450d63d76/1788888942/starz-cinema.m3u8
 #EXTINF:-1 tvg-logo="https://careers.starz.com/wp-content/uploads/2025/01/STARZ-LOGO-IMAGE.png",STARZ Comedy
-https://epidd.hundxvision.co.uk/main/secure/0d74827034b21be1b5498dfb35598a90ee504668e3108ede989d548adf2fd019/1788888165/starz-comedy.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/5ab9ee44d4db0fceb951bd5b27b63eedf12c49d7a964b3112d3f5ccf50f6fe84/1788888943/starz-comedy.m3u8
 #EXTINF:-1 tvg-logo="https://careers.starz.com/wp-content/uploads/2025/01/STARZ-LOGO-IMAGE.png",STARZ Kids and Family
-https://epidd.hundxvision.co.uk/main/secure/1c2601f0be4a1a92e7522cc2a4da6f5ef7dbe7b06b26e7c28c98b380b99128af/1788888166/starz-kids-and-family.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/f327a18c570e5f8d4b16cb7ad7812cebf29f8a8ba62e42116bc300539949ebd2/1788888944/starz-kids-and-family.m3u8
 #EXTINF:-1 tvg-logo="https://assets.goal.com/images/v3/blt1be56273baf0440d/syfy%20logo.jpg?auto=webp&amp;amp;amp;amp;amp;amp;amp;amp;format=pjpg&amp;amp;amp;amp;amp;amp;amp;amp;width=3840&amp;amp;amp;amp;amp;amp;amp;amp;quality=60",SYFY
-https://epidd.hundxvision.co.uk/main/secure/3f804bc20217794f91b21a1c59e21ee21360a3453ee502e4307963dd00920176/1788888167/syfy.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/696847dc43159182f81749a1b291458f1b2628be666b693406f4754154eea479/1788888945/syfy.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.sanity.io/images/1pn9obcz/production/a6971fbe09c85f2deeb480fc494a39219d039135-1920x1080.jpg",TBS
-https://epidd.hundxvision.co.uk/main/secure/fc8192d444f161bc807b059ac2aae62b2746394ff5d11d397dfcede1f8ed6401/1788888168/tbs.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/970c1453f6feadd70b36602763a9a9f3c688710fdd49448f57128b3a157605bd/1788888946/tbs.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/3yCJDVrW/Teen-Nick-2023.webp",Teenick
-https://epidd.hundxvision.co.uk/main/secure/f8e999109f2b440bb96dcd7a200823470b25897d43eb3f0d95721b5e96d887a8/1788888172/teenick.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/1f2ab43f18b485dc7e0a9c18480def471a80ab79aea2f2a04014f785daa64a60/1788888947/teenick.m3u8
 #EXTINF:-1 tvg-logo="https://media-cldnry.s-nbcnews.com/image/upload/newscms/2020_20/3352176/telemundo-social-default.png",Telemundo
-https://epidd.hundxvision.co.uk/main/secure/fa96fe87f2f2167c9cde432f922c74f128a0821471626a4dda2c77d899459d76/1788888173/telemundo.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/9e5f34006d0c6f504e180f2fad8cf39c60d2830f2f0923809e7ce9356e60b09f/1788888947/telemundo.m3u8
 #EXTINF:-1 tvg-logo="https://s10019.cdn.ncms.io/wp-content/uploads/2026/05/tenn2.jpg.jpeg",Tennis Channel
-https://epidd.hundxvision.co.uk/main/secure/8a48fb8fde1b7f879f8d2bae641ebb13e5a1125ba09829e498abd0c93b18063a/1788888174/tennis-channel.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/ff8c4073af32b129900b67103810f10c643921b781cd7bbc37eeda90d40c1160/1788888949/tennis-channel.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/bRJqL6WK/LWRBPBUMCVFA3-G5-Q4-ZH3-XJYDNY.avif",The Weather Channel
-https://epidd.hundxvision.co.uk/main/secure/626782f77f67144c213a2b3a11613f410593dcca22da1e46219c4db67bdc2b2b/1788888175/the-weather-channel.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/162cefac841e262a7142143d3ab138be60e24622115d978ca2ec1b949b60c289/1788888949/the-weather-channel.m3u8
 #EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/F-AHKcxi3pY/maxresdefault.jpg",TNT
-https://epidd.hundxvision.co.uk/main/secure/5761c0ac5ccbecee918d7950e2c6c19b4c466bdcc51125fa2e17771f9b7f25aa/1788888176/tnt.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/dcc1fbc1aef74e1b62e347d620cf3bcd4f197f82cc946dd45b96275a34f75b6c/1788888950/tnt.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.mos.cms.futurecdn.net/y3oPitXYAwGJnyTHFYo5qB.jpeg",TNT Sports 1
-https://epidd.hundxvision.co.uk/main/secure/4ded21d946e1d18917c689a876134d56bf42a980aa1059b90194876f811fb068/1788888177/tnt-sports-1.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/0560b5b13af2260356e06109083130516f4aa7217f4d6e6b212a299717bc5482/1788888951/tnt-sports-1.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.mos.cms.futurecdn.net/y3oPitXYAwGJnyTHFYo5qB.jpeg",TNT Sports 2
-https://epidd.hundxvision.co.uk/main/secure/86e02702e73b13c392a85829d1042a8b5d46efb0a510ba467975d4d9213afbf0/1788888178/tnt-sports-2.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/2563e18fa138e4f29cc81ac33776652a0417350d5c7b1440addd32fd77acbaed/1788888952/tnt-sports-2.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.mos.cms.futurecdn.net/y3oPitXYAwGJnyTHFYo5qB.jpeg",TNT Sports 3
-https://epidd.hundxvision.co.uk/main/secure/513a38ef850f2d02c5c86e62f22dffde47b512a49081ad7013936bf44c7829a4/1788888179/tnt-sports-3.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/93c3679f2bee8d96340894568b6721230f906ace94834771cc3e09ec4a4c44de/1788888953/tnt-sports-3.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.mos.cms.futurecdn.net/y3oPitXYAwGJnyTHFYo5qB.jpeg",TNT Sports 4
-https://epidd.hundxvision.co.uk/main/secure/f46300d11afe66b402c19212b6ba485d381f3605a0eed77e9384ff7d6c1b84bf/1788888180/tnt-sports-4.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/82e8254054d1781ba1e19401acc04ef2d2a97d0534a43aa73eecfde37b68ec9a/1788888953/tnt-sports-4.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/DfGcnjXY/Header-tru-TV.webp",TruTV
-https://epidd.hundxvision.co.uk/main/secure/bf70d5b48e4cee2301111a1bcbb96fcf0a63ac2f9b3098228b6c2cf099e835b5/1788888181/trutv.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/4f148b894e9a449df66cd2eef603d4b86436cda162bc4c8dcb0b2af5350a0482/1788888954/trutv.m3u8
 #EXTINF:-1 tvg-logo="https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",TSN1
-https://epidd.hundxvision.co.uk/main/secure/a7fa9aedbc3276199f0e994ea450d90969962158f8c348750a3570eb360c121e/1788888186/tsn1.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/74b93ed16bf221545739415e40aef71053e72675afcbfb2ad5ed3533056d8aac/1788888955/tsn1.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.aptoide.com/imgs/e/e/6/ee65573e3ed2c5fcafa0191860afdf51_fgraphic.png",TUDN
-https://epidd.hundxvision.co.uk/main/secure/e28161823c36034aa39af6f9b241bfd9ca41ee454c2a9c26df41dde16914e52e/1788888188/tudn.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/a04258bd77c027901938ab2fa4016588adbfcc41fe7490d644ea503c0995e2b9/1788888956/tudn.m3u8
 #EXTINF:-1 tvg-logo="https://assets.goal.com/images/v3/blta396e76391fffdfa/TyC_Sports_logo.jpg",TYC Sports Internacional
-https://epidd.hundxvision.co.uk/main/secure/9a4983d088cf9bc44375049661bca5b90b2c21ad4f4a8a8155b505bdb62796d2/1788888189/tyc-sports-internacional.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/65d6db72b6f21c3fc315a7141b516c3b1a942763707236b28aa1af1856b2a5b7/1788888957/tyc-sports-internacional.m3u8
 #EXTINF:-1 tvg-logo="https://variety.com/wp-content/uploads/2013/10/usa-network-logo1.jpg",USA Network
-https://epidd.hundxvision.co.uk/main/secure/531c5d149e82fe87f2620a432cc0374528711bec155284d13e5dc8010a426753/1788888199/usa-network.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/bc9d5fa6e62db2e3a7f2440e17c5f56ed5f177a0cbc419035282e705d9e1137a/1788888965/usa-network.m3u8
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/I/81AEkpHaIPL._SL1920_.png",WAPA America
-https://epidd.hundxvision.co.uk/main/secure/325f7118c67dc7bef5df3c1462dbe3750093fedb958a40a5f47b4addfbabfce7/1788888200/wapa-america.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/363cc49e54b309696f26f60615e05970a1c8031ccd4ea1c948b36abcdb7d930f/1788888965/wapa-america.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/pBzhsJ17/WAPA-Deportes.jpg",WAPA Deportes
-https://epidd.hundxvision.co.uk/main/secure/b1cbcc2b8144444bf37a8f69c429f23b91d0a5c57856cc31c9090115fc32e799/1788888201/wapa-deportes.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/5556403ad2bb8df6bfba03cc3e8406bddf1d1ce95dfb28ade131be00047dd688/1788888966/wapa-deportes.m3u8
 #EXTINF:-1 tvg-logo="https://mgpindia.com/wp-content/uploads/2021/10/willow-logo.jpg",Willow Cricket
-https://epidd.hundxvision.co.uk/main/secure/6a3a325eb0ae37e3ee624755eaaba86c7bf89d85a6b098a52274434bdd04e0c4/1788888202/willow-cricket.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/789a2cd492b95875672a3e57ea9c57a4f1d761823b28d00929229a1e03ae97c1/1788888967/willow-cricket.m3u8
 #EXTINF:-1 tvg-logo="https://d229kpbsb5jevy.cloudfront.net/tv/1920/1080/languages/WILLOW-2.jpg",Willow Cricket 2
-https://epidd.hundxvision.co.uk/main/secure/e4d25f9b30cb9862f7d177a751d3b99c8da73ad76fcf5d99b55c8d005de9e6c8/1788888203/willow-cricket-2.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://timst.cfd/
+https://epidd.hundxvision.co.uk/main/secure/3c08c4c200b5e4e7f6765fb949adaaa0897e2378b9c5e1026bdc0142ca58ea85/1788888968/willow-cricket-2.m3u8
