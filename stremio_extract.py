@@ -9,9 +9,25 @@ OUTPUT_FILE = "stremio_playlist.m3u"
 MAX_WORKERS = 30
 HEADERS = {'User-Agent': 'Mozilla/5.0'}
 
+# Exclusion list: any catalog, channel, or stream matching these will be dropped
+EXCLUDE_KEYWORDS = [
+    "news", "movie", "combat sports", "adult", "politic", "music", 
+    "kids", "family", "featured", "trailer", "smutt", "gore", 
+    "crime", "crazyshit", "worldstar", "ync", "kaotic"
+]
+
+def is_excluded(text):
+    text_lower = text.lower()
+    return any(ex in text_lower for ex in EXCLUDE_KEYWORDS)
+
 def process_meta_task(task):
     addon_base, cat_type, item_id, name, cat_name = task
     found = []
+    
+    # Skip individual channels matching excluded terms
+    if is_excluded(name):
+        return found
+
     stream_url = f"{addon_base}/stream/{cat_type}/{item_id}.json"
     try:
         res = requests.get(stream_url, headers=HEADERS, timeout=5).json()
@@ -22,6 +38,10 @@ def process_meta_task(task):
             if url:
                 title_clean = raw_title.replace("\n", " ").strip() if raw_title else ""
                 
+                # Skip streams matching excluded terms
+                if is_excluded(title_clean):
+                    continue
+
                 # Name deduplication logic
                 if not title_clean or name.lower() == title_clean.lower():
                     channel_label = name
@@ -51,6 +71,11 @@ def get_stremio_streams():
                 cat_id = cat.get("id")
                 cat_name = cat.get("name", cat_id)
                 
+                # Skip fetching excluded catalogs completely (saves bandwidth & speed)
+                if is_excluded(f"{cat_name} {cat_id}"):
+                    print(f"Skipping excluded catalog: {cat_name}")
+                    continue
+
                 catalog_url = f"{clean_base}/catalog/{cat_type}/{cat_id}.json"
                 print(f"Fetching catalog: {cat_name} ({clean_base})...")
                 try:
@@ -65,7 +90,7 @@ def get_stremio_streams():
         except Exception as e:
             print(f"Error connecting to source {clean_base}: {e}")
 
-    print(f"Concurrently checking {len(tasks)} channels across all sources using {MAX_WORKERS} threads...")
+    print(f"\nConcurrently checking {len(tasks)} sports/live channels across all sources using {MAX_WORKERS} threads...")
     streams_found = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         results = executor.map(process_meta_task, tasks)
@@ -75,7 +100,7 @@ def get_stremio_streams():
     return streams_found
 
 def main():
-    print("Starting multi-source Stremio channel extraction...")
+    print("Starting filtered Stremio channel extraction...")
     valid_entries = get_stremio_streams()
     
     # Deduplicate entries by stream URL
@@ -91,7 +116,7 @@ def main():
         for name, url in unique_entries:
             f.write(f"#EXTINF:-1,{name}\n{url}\n")
             
-    print(f"Done! Saved {len(unique_entries)} unique streams from all Stremio sources to {OUTPUT_FILE}.")
+    print(f"Done! Saved {len(unique_entries)} clean live/sports channels to {OUTPUT_FILE}.")
 
 if __name__ == "__main__":
     main()
