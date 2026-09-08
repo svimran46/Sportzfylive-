@@ -1,71 +1,73 @@
 import requests
-import time
-from concurrent.futures import ThreadPoolExecutor, as_completed
+import concurrent.futures
 
-PLAYLIST_URL = "https://tinyurl.com/livem3u8"
+SOURCE_URLS = [
+    "https://tinyurl.com/livem3u8",
+    "http://m3u4u.com/m3u/p87vnrjwd2b6mrvrn41j"
+]
 OUTPUT_FILE = "playlist.m3u"
+TIMEOUT = 4
+MAX_WORKERS = 50
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-}
-
-def test_stream(item):
-    title, url = item
+def fetch_playlist(url):
     try:
-        with requests.get(url, headers=HEADERS, timeout=5, allow_redirects=True, stream=True) as res:
-            if res.status_code in [200, 206]:
-                return (title, url, True)
-    except Exception:
-        pass
-    return (title, url, False)
-
-def main():
-    print(f"Downloading external playlist from {PLAYLIST_URL}...")
-    try:
-        res = requests.get(PLAYLIST_URL, headers=HEADERS, timeout=15)
-        if res.status_code != 200:
-            print(f"Failed to download playlist. Status code: {res.status_code}")
-            return
-        content = res.text
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+        return response.text
     except Exception as e:
-        print(f"Error downloading playlist: {e}")
-        return
+        print(f"Error fetching {url}: {e}")
+        return ""
 
+def parse_m3u(content):
     lines = content.splitlines()
-    channels = []
-    current_title = "Live Stream"
-    
+    entries = []
+    current_meta = None
     for line in lines:
         line = line.strip()
         if line.startswith("#EXTINF:"):
-            if "," in line:
-                current_title = line.split(",", 1)[1]
+            current_meta = line
         elif line and not line.startswith("#"):
-            url = line
-            channels.append((current_title, url))
-            current_title = "Live Stream"
+            if current_meta:
+                entries.append((current_meta, line))
+                current_meta = None
+    return entries
 
-    print(f"Parsed {len(channels)} total links. Testing in parallel (will finish in under a minute)...")
+def validate_stream(entry):
+    meta, url = entry
+    try:
+        r = requests.get(url, timeout=TIMEOUT, stream=True, allow_redirects=True, headers={'User-Agent': 'VLC'})
+        if r.status_code in (200, 206, 301, 302):
+            r.close()
+            return (meta, url)
+    except Exception:
+        pass
+    return None
+
+def main():
+    all_entries = []
+    for url in SOURCE_URLS:
+        print(f"Fetching playlist from {url}...")
+        content = fetch_playlist(url)
+        if content:
+            entries = parse_m3u(content)
+            print(f"Found {len(entries)} streams from {url}.")
+            all_entries.extend(entries)
+
+    print(f"Validating {len(all_entries)} streams using {MAX_WORKERS} threads...")
     
-    working_channels = []
-    with ThreadPoolExecutor(max_workers=30) as executor:
-        futures = {executor.submit(test_stream, ch): ch for ch in channels}
-        for future in as_completed(futures):
-            title, url, is_working = future.result()
-            if is_working:
-                print(f"✔ [WORKING] {title}")
-                working_channels.append((title, url))
-            else:
-                print(f"✖ [DEAD] {title}")
-
-    print(f"\nTotal working streams found: {len(working_channels)}")
+    valid_entries = []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        results = executor.map(validate_stream, all_entries)
+        for result in results:
+            if result:
+                valid_entries.append(result)
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
-        for title, link in working_channels:
-            f.write(f"#EXTINF:-1,{title}\n")
-            f.write(f"{link}\n")
-    print(f"Successfully saved to {OUTPUT_FILE}!")
+        for meta, url in valid_entries:
+            f.write(f"{meta}\n{url}\n")
+            
+    print(f"Done! Saved {len(valid_entries)} working streams to {OUTPUT_FILE} in seconds.")
 
 if __name__ == "__main__":
     main()
