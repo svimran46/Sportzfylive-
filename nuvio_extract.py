@@ -1,12 +1,15 @@
 import requests
 import concurrent.futures
 
-ADDON_BASE = "https://nuvio.moaqeel6679.my.id"
+ADDON_BASES = [
+    "https://nuvio.moaqeel6679.my.id",
+    "https://sportvibe.win/api/addon/80635bf20325521359ef7cac40a90ffb2842ddb752ad29db40849fe968bee7a6"
+]
 OUTPUT_FILE = "nuvio_playlist.m3u"
 MAX_WORKERS = 30
 HEADERS = {'User-Agent': 'Mozilla/5.0'}
 
-# Standard exclusions to keep the list focused on channels/sports
+# Standard exclusions to keep the list focused on live channels/sports
 EXCLUDE_KEYWORDS = [
     "news", "movie", "adult", "politic", "music", 
     "kids", "family", "trailer", "smutt", "gore", 
@@ -18,13 +21,13 @@ def is_excluded(text):
     return any(ex in text_lower for ex in EXCLUDE_KEYWORDS)
 
 def process_meta_task(task):
-    cat_type, item_id, name, cat_name = task
+    addon_base, cat_type, item_id, name, cat_name = task
     found = []
     
     if is_excluded(name):
         return found
 
-    stream_url = f"{ADDON_BASE}/stream/{cat_type}/{item_id}.json"
+    stream_url = f"{addon_base}/stream/{cat_type}/{item_id}.json"
     try:
         res = requests.get(stream_url, headers=HEADERS, timeout=5).json()
         streams = res.get("streams", [])
@@ -54,36 +57,37 @@ def process_meta_task(task):
 
 def get_stremio_streams():
     tasks = []
-    clean_base = ADDON_BASE.replace("/manifest.json", "").rstrip("/")
-    try:
-        print(f"Connecting to manifest: {clean_base}...")
-        manifest = requests.get(f"{clean_base}/manifest.json", headers=HEADERS, timeout=10).json()
-        catalogs = manifest.get("catalogs", [])
-        
-        for cat in catalogs:
-            cat_type = cat.get("type")
-            cat_id = cat.get("id")
-            cat_name = cat.get("name", cat_id)
+    for base in ADDON_BASES:
+        clean_base = base.replace("/manifest.json", "").rstrip("/")
+        try:
+            print(f"Connecting to manifest: {clean_base}...")
+            manifest = requests.get(f"{clean_base}/manifest.json", headers=HEADERS, timeout=10).json()
+            catalogs = manifest.get("catalogs", [])
             
-            if is_excluded(f"{cat_name} {cat_id}"):
-                print(f"Skipping excluded catalog: {cat_name}")
-                continue
+            for cat in catalogs:
+                cat_type = cat.get("type")
+                cat_id = cat.get("id")
+                cat_name = cat.get("name", cat_id)
+                
+                if is_excluded(f"{cat_name} {cat_id}"):
+                    print(f"Skipping excluded catalog: {cat_name}")
+                    continue
 
-            catalog_url = f"{clean_base}/catalog/{cat_type}/{cat_id}.json"
-            print(f"Fetching catalog: {cat_name}...")
-            try:
-                cat_res = requests.get(catalog_url, headers=HEADERS, timeout=10).json()
-                metas = cat_res.get("metas", [])
-                for meta in metas:
-                    item_id = meta.get("id")
-                    name = meta.get("name", "Unknown Channel").strip()
-                    tasks.append((cat_type, item_id, name, cat_name))
-            except Exception as e:
-                print(f"Failed catalog fetch for {cat_id}: {e}")
-    except Exception as e:
-        print(f"Error connecting to source {clean_base}: {e}")
+                catalog_url = f"{clean_base}/catalog/{cat_type}/{cat_id}.json"
+                print(f"Fetching catalog: {cat_name} ({clean_base})...")
+                try:
+                    cat_res = requests.get(catalog_url, headers=HEADERS, timeout=10).json()
+                    metas = cat_res.get("metas", [])
+                    for meta in metas:
+                        item_id = meta.get("id")
+                        name = meta.get("name", "Unknown Channel").strip()
+                        tasks.append((clean_base, cat_type, item_id, name, cat_name))
+                except Exception as e:
+                    print(f"Failed catalog fetch for {cat_id}: {e}")
+        except Exception as e:
+            print(f"Error connecting to source {clean_base}: {e}")
 
-    print(f"\nConcurrently extracting channels using {MAX_WORKERS} threads...")
+    print(f"\nConcurrently extracting channels across all sources using {MAX_WORKERS} threads...")
     streams_found = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         results = executor.map(process_meta_task, tasks)
@@ -93,7 +97,7 @@ def get_stremio_streams():
     return streams_found
 
 def main():
-    print("Starting Nuvio Stremio channel extraction...")
+    print("Starting multi-source Nuvio/SportVibe channel extraction...")
     valid_entries = get_stremio_streams()
     
     seen = set()
