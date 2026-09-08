@@ -3,7 +3,8 @@ import concurrent.futures
 
 SOURCE_URLS = [
     "https://tinyurl.com/livem3u8",
-    "http://m3u4u.com/m3u/p87vnrjwd2b6mrvrn41j"
+    "http://m3u4u.com/m3u/p87vnrjwd2b6mrvrn41j",
+    "http://m3u4u.com/m3u/4z2xnjg1zkf3wx8pyv15"
 ]
 OUTPUT_FILE = "playlist.m3u"
 TIMEOUT = 4
