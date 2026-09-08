@@ -1,15 +1,18 @@
 import requests
 import concurrent.futures
 
-ADDON_BASE = "https://live-addon.vercel.app"
+ADDON_BASES = [
+    "https://live-addon.vercel.app",
+    "https://tv.rdnutz.us"
+]
 OUTPUT_FILE = "stremio_playlist.m3u"
 MAX_WORKERS = 30
 HEADERS = {'User-Agent': 'Mozilla/5.0'}
 
 def process_meta_task(task):
-    cat_type, item_id, name, cat_name = task
+    addon_base, cat_type, item_id, name, cat_name = task
     found = []
-    stream_url = f"{ADDON_BASE}/stream/{cat_type}/{item_id}.json"
+    stream_url = f"{addon_base}/stream/{cat_type}/{item_id}.json"
     try:
         res = requests.get(stream_url, headers=HEADERS, timeout=5).json()
         streams = res.get("streams", [])
@@ -17,10 +20,9 @@ def process_meta_task(task):
             url = stream.get("url")
             raw_title = stream.get("title", "")
             if url:
-                # Clean up line breaks in stream title
                 title_clean = raw_title.replace("\n", " ").strip() if raw_title else ""
                 
-                # Deduplicate name logic
+                # Name deduplication logic
                 if not title_clean or name.lower() == title_clean.lower():
                     channel_label = name
                 elif name.lower() in title_clean.lower():
@@ -37,31 +39,33 @@ def process_meta_task(task):
 
 def get_stremio_streams():
     tasks = []
-    try:
-        manifest = requests.get(f"{ADDON_BASE}/manifest.json", headers=HEADERS, timeout=10).json()
-        catalogs = manifest.get("catalogs", [])
-        
-        for cat in catalogs:
-            cat_type = cat.get("type")
-            cat_id = cat.get("id")
-            cat_name = cat.get("name", cat_id)
+    for base in ADDON_BASES:
+        clean_base = base.replace("/manifest.json", "").rstrip("/")
+        try:
+            print(f"Connecting to manifest: {clean_base}...")
+            manifest = requests.get(f"{clean_base}/manifest.json", headers=HEADERS, timeout=10).json()
+            catalogs = manifest.get("catalogs", [])
             
-            catalog_url = f"{ADDON_BASE}/catalog/{cat_type}/{cat_id}.json"
-            print(f"Fetching catalog: {cat_name}...")
-            try:
-                cat_res = requests.get(catalog_url, headers=HEADERS, timeout=10).json()
-                metas = cat_res.get("metas", [])
-                for meta in metas:
-                    item_id = meta.get("id")
-                    name = meta.get("name", "Unknown Channel").strip()
-                    tasks.append((cat_type, item_id, name, cat_name))
-            except Exception as e:
-                print(f"Failed catalog fetch for {cat_id}: {e}")
-    except Exception as e:
-        print(f"Error fetching manifest: {e}")
-        return []
+            for cat in catalogs:
+                cat_type = cat.get("type")
+                cat_id = cat.get("id")
+                cat_name = cat.get("name", cat_id)
+                
+                catalog_url = f"{clean_base}/catalog/{cat_type}/{cat_id}.json"
+                print(f"Fetching catalog: {cat_name} ({clean_base})...")
+                try:
+                    cat_res = requests.get(catalog_url, headers=HEADERS, timeout=10).json()
+                    metas = cat_res.get("metas", [])
+                    for meta in metas:
+                        item_id = meta.get("id")
+                        name = meta.get("name", "Unknown Channel").strip()
+                        tasks.append((clean_base, cat_type, item_id, name, cat_name))
+                except Exception as e:
+                    print(f"Failed catalog fetch for {cat_id}: {e}")
+        except Exception as e:
+            print(f"Error connecting to source {clean_base}: {e}")
 
-    print(f"Concurrently checking {len(tasks)} channels using {MAX_WORKERS} threads...")
+    print(f"Concurrently checking {len(tasks)} channels across all sources using {MAX_WORKERS} threads...")
     streams_found = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         results = executor.map(process_meta_task, tasks)
@@ -71,10 +75,10 @@ def get_stremio_streams():
     return streams_found
 
 def main():
-    print("Extracting channels with cleaned single names...")
+    print("Starting multi-source Stremio channel extraction...")
     valid_entries = get_stremio_streams()
     
-    # Deduplicate by URL
+    # Deduplicate entries by stream URL
     seen = set()
     unique_entries = []
     for name, url in valid_entries:
@@ -87,7 +91,7 @@ def main():
         for name, url in unique_entries:
             f.write(f"#EXTINF:-1,{name}\n{url}\n")
             
-    print(f"Done! Cleaned and saved {len(unique_entries)} unique channels to {OUTPUT_FILE}.")
+    print(f"Done! Saved {len(unique_entries)} unique streams from all Stremio sources to {OUTPUT_FILE}.")
 
 if __name__ == "__main__":
     main()
