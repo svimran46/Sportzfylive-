@@ -323,7 +323,7 @@ https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb628/playlist.m3u8?token=
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb613/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjEzOjE3ODg4Nzg4MTQ2NDY6Y2RubGl2ZXR2LnR2OjViYzgyYjFiODhlNTRkYWYuMGNlZTQwODA1MWM3MDE3NGVmZTZkZDM2MDg3MGQyYzA3N2FlMjA4Mjg0NDcxZWM2ODBkZjMzYjRiNjRhYWI0OQ
 #EXTINF:-1,Minnesota Twins
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb624/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjI0OjE3ODg4Nzg4MTQ2NDQ6Y2RubGl2ZXR2LnR2OmIyMjYzNWY1NWVkYmQ2ODguMTg2YmQyMjQxNWQ2NTJlYzkyNTU2OTY5MTIyZDM3NjliZWZmMmY1MWY0N2E4YjM3YzA1MWVkYzE1OWEwNjA0Ng
-#EXTINF:-1,Monumental Sports Network
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/mm/monumental-sports-network-us.svg",Monumental Sports Network
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb509/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNTA5OjE3ODg4Nzg4MTQ3MDY6Y2RubGl2ZXR2LnR2OjViMDI0NDA4MTkyMzk0YTAuYTc0NTUyNGNkODVmM2Y2YjU1MzQ1YTJjZTM3ZjE3NzliNzFmODRjMzY0MzZiMzdlMDFiM2M1YTUzMTgxMjVmMA
 #EXTINF:-1,Movistar Deportes 1
 https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76cc798/playlist.m3u8?token=NmEyODhkMmI4MWQ4MTkyYmI3NmNjNzk4OjE3ODg4Nzg4MTQ2OTM6Y2RubGl2ZXR2LnR2Ojg4NzdjNTQ3MmU2YzkzNmQuODYwOTc4ZTEyYTRjN2Q2MTU3ZWEwZjM1Njk3ODYzNzFiZWRjYmU1ZjU5NGI2MzEyYzkxMjdlM2U3OGM3YWI2OQ
@@ -485,15 +485,15 @@ https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf22a/playlist.m3u8?token=
 https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76ccade/playlist.m3u8?token=NmEyODhkMmI4MWQ4MTkyYmI3NmNjYWRlOjE3ODg4Nzg4MTY0NDY6Y2RubGl2ZXR2LnR2OmQzZGQxZTExY2FhNTcyNjguNjEwZjhkYjY3YzM4YzIzZDk5MWZhMWU2NTIyNjlkM2M5MzdlZTYwOTk3ODUxY2NhZmM3ZGRkNzE0NTExZmU2NA
 #EXTINF:-1,Sky Sport 9
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf22b/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjJiOjE3ODg4Nzg4MTY1MDM6Y2RubGl2ZXR2LnR2OjYwMWUxMjNmYjdlMjQ0MjkuYjI0MGNjYzdkM2VhYTI2YzliZmYxNmE2ZjY2YWVjMjU5ZDU1ZTE3NzljYzNiNGRmMzI4Y2EyMWRkYjgyYmY1YQ
-#EXTINF:-1,Sky Sport Bundesliga 1
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/ss/sky-sport-bundesliga-de.png",Sky Sport Bundesliga 1
 https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76ccca9/playlist.m3u8?token=NmEyODhkMmI4MWQ4MTkyYmI3NmNjY2E5OjE3ODg4Nzg4MTY3MzU6Y2RubGl2ZXR2LnR2OjUxMjhiZGFhNzlhMGY4NjUuOTViYmNiMmRmODRhYTU4M2Q2NzI4YWQ2MGJmNjExM2UxYWVjODFmZTlhZjkzZGJjYTk1MjM3ZmQ4YmU3OTI5Zg
 #EXTINF:-1,Sky Sport Bundesliga 10
 https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76ccaca/playlist.m3u8?token=NmEyODhkMmI4MWQ4MTkyYmI3NmNjYWNhOjE3ODg4Nzg4MTY1MjE6Y2RubGl2ZXR2LnR2OjY3OTY2MDc5MDI2OWY1YjYuMjgzZjUzODhkMDM0MTQ0MjdiZmYwYjg0OTRiMjM5ZTM5OGM0MDIyZTI3NDFiODE4MzYyNmY0ZjAyYWNhYTZlMQ
-#EXTINF:-1,Sky Sport Bundesliga 2
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/ss/sky-sport-bundesliga-de.png",Sky Sport Bundesliga 2
 https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76cccab/playlist.m3u8?token=NmEyODhkMmI4MWQ4MTkyYmI3NmNjY2FiOjE3ODg4Nzg4MTY1MzI6Y2RubGl2ZXR2LnR2OmJlYmI3NjI5ODA4MjE1ZjQuMzlhODVkNjkzYThlMzNmODJlZjY2Y2E5OTVmNDhhN2Y0ZGIyM2E0NjRkMmUyNGQ5ZmZkMGM5ZmM1ODVkNzIwZQ
 #EXTINF:-1,Sky Sport Bundesliga 3
 https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76cccad/playlist.m3u8?token=NmEyODhkMmI4MWQ4MTkyYmI3NmNjY2FkOjE3ODg4Nzg4MTY1NDk6Y2RubGl2ZXR2LnR2OmIzZjNkYjY4ODM3OGU0ZTkuZjg1ZWQ1ZWFhM2VlZDMzODMyMWFmNWRlZjlkMjIyM2RmNDY2Yzg0OTg3MDA3ZGFmNDQ4NjVkOTI2ZWNhMmYyYg
-#EXTINF:-1,Sky Sport Bundesliga 4
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/ss/sky-sport-bundesliga-de.png",Sky Sport Bundesliga 4
 https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76cccaf/playlist.m3u8?token=NmEyODhkMmI4MWQ4MTkyYmI3NmNjY2FmOjE3ODg4Nzg4MTY3Nzc6Y2RubGl2ZXR2LnR2OjIyNjM2MjQwMWViODQ5MTAuZTJjM2EzZDQyNzFkYmE1OTdhODhhYTVjMTRkMmIyZWVmYTE1ODhjYWYxMzVjZmIwODU0MTg2NjFhNmEzMDNiNA
 #EXTINF:-1,Sky Sport Bundesliga 5
 https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76cccb2/playlist.m3u8?token=NmEyODhkMmI4MWQ4MTkyYmI3NmNjY2IyOjE3ODg4Nzg4MTY1NjE6Y2RubGl2ZXR2LnR2OmIwM2U1MzM4ZWNiZGNkZDYuZmY3OTY0OTMxY2RkZjIzNjM4Yjc4MmMzOWVjNTkxMjAwMjgzYjVhZjQzYmE4ZmE3M2Q0MTdjNjc4YTEwNDgxYQ
@@ -503,7 +503,7 @@ https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76cccb4/playlist.m3u8?token=
 https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76cccb6/playlist.m3u8?token=NmEyODhkMmI4MWQ4MTkyYmI3NmNjY2I2OjE3ODg4Nzg4MTY4MjI6Y2RubGl2ZXR2LnR2OjdiMzdmODA0NmJiNzI0NTAuMWRiYzM4ODJhODk5YmRlNDA2NDc5N2MyZTMxMzcxNzg2MTk0YmU2YmVhNmQ4YTMyMzU4ZmM1MjY3Yzg4ZjFjZA
 #EXTINF:-1,Sky Sport Bundesliga 8
 https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76cccb7/playlist.m3u8?token=NmEyODhkMmI4MWQ4MTkyYmI3NmNjY2I3OjE3ODg4Nzg4MTY4MjA6Y2RubGl2ZXR2LnR2OmZjMDE0MjdhYzIwY2U0MzQuMDk2NjNiMGU3ZmE1ZDcyNWFhYmFkMzdhNGM4MGM2MjAzOTk2MWJlZTRhZGM2MTE2NzMzZGU2MGNlZTRhNjYwMg
-#EXTINF:-1,Sky Sport Bundesliga 9
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/ss/sky-sport-bundesliga-de.png",Sky Sport Bundesliga 9
 https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76cccb9/playlist.m3u8?token=NmEyODhkMmI4MWQ4MTkyYmI3NmNjY2I5OjE3ODg4Nzg4MTY2OTU6Y2RubGl2ZXR2LnR2Ojk3MGI1Nzg1YzBlMDZkMDIuZTMwNTllOWE1OTk0YWFmZDc4Y2Q5MTRiZjgwZGY0OGU4MDM0MGI2YzkyNDYzN2ZmODU1NzllYmIwNDE3NTFjMw
 #EXTINF:-1,Sky Sport Golf
 https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76ccaf0/playlist.m3u8?token=NmEyODhkMmI4MWQ4MTkyYmI3NmNjYWYwOjE3ODg4Nzg4MTY3MDE6Y2RubGl2ZXR2LnR2OjdiNzZhNTI0MDkzN2Y0NTEuZjkzZTZiYTc2MmUwZjJkZTNlMTUwYTAzMTk2MmI1NDc2MTM4NTNhMzM5YTg0NTE5MDYzMWJlMzYwYmQ3NjYyNA
@@ -511,7 +511,7 @@ https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76ccaf0/playlist.m3u8?token=
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc39e/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzllOjE3ODg4Nzg4MTY4MDY6Y2RubGl2ZXR2LnR2OmM0ZGNiMzA2Y2M0NGI1M2MuMjJiY2EyZWQxZjJiOTRhMDcwNzJlNmIzYzkxZDU1ZmEyYmE1M2JmYTU1ZDE5MWViMjMyNmFhOTU1MDlkNjE4ZQ
 #EXTINF:-1,Sky Sport Mix
 https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76ccaec/playlist.m3u8?token=NmEyODhkMmI4MWQ4MTkyYmI3NmNjYWVjOjE3ODg4Nzg4MTcwNTk6Y2RubGl2ZXR2LnR2OjU1ZDZkNzhlYzVlZTRiY2UuMTU0NjczZjIzNjA5YzAzNTMyMmYxMTczN2M4NDkwM2E3NjBiNzdiYjljNjYwNGY3ZTMwZjZjZGZlZTRmMzEyNw
-#EXTINF:-1,Sky Sport Premier League
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/ss/sky-sport-premier-league-de.png",Sky Sport Premier League
 https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76ccae4/playlist.m3u8?token=NmEyODhkMmI4MWQ4MTkyYmI3NmNjYWU0OjE3ODg4Nzg4MTY4NjU6Y2RubGl2ZXR2LnR2OmY5YzZiMWM4ZmZjZWYxMWIuZGFkYmFlNGJhZjM3YzEyN2UxMGZiNzBmMTRiODA4ZmQwYTc4MDIwNzUyZGY0ZDIzODRmNDJlNTFlODljOWFmMA
 #EXTINF:-1,Sky Sport Select
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf22c/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjJjOjE3ODg4Nzg4MTY5Mzg6Y2RubGl2ZXR2LnR2OjE0ODdmYWZlMTE5YmQ4ZTMuNmJkNTJiNDI3OThkNWM5YzllMWE1MGMyMzEyNzMzNTc5NTljMzQ1YzQyMjgzMTc0YzhkZTFiYzE2YjRlNWVhOA
@@ -535,7 +535,7 @@ https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc31d/playlist.m3u8?token=
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc30f/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzBmOjE3ODg4Nzg4MTcxMDI6Y2RubGl2ZXR2LnR2OjdlODRkMWRiODE3NzU2MWUuNDQwYzAxNDgwMTQzNTVlZTQxNTNiMTJkMTZhYjRhMWNmZDQ4ZDM4OGEzNjcyZmUwOWRlNzI5ZDA2M2NmOTg2MA
 #EXTINF:-1,Sky Sports Mix
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc32d/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzJkOjE3ODg4Nzg4MTcwODY6Y2RubGl2ZXR2LnR2OmEwYzEzMjg0ZWQ1ODhjZmQuZjEyNmI0OWY4MmRjOGMwMTY5NmI3ODk2MGRmMWU0YWQ1M2UxNGE2YmFmMjE3YTkxYTcyMzA5N2U0NDcwNjhlMQ
-#EXTINF:-1,Sky Sports Premier League
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/ss/sky-sport-premier-league-de.png",Sky Sports Premier League
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc33d/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzNkOjE3ODg4Nzg4MTcxMzQ6Y2RubGl2ZXR2LnR2OmZjNTIwYTNjMTc0YzlkZmQuNzFmNTlkNzEzYzZkMzczMzU0YTMyYmRhYmJmMzQyOGM5NDNmNTg2ZGJlZmJiNmY0ZmRjZTIzYjBhZmM5YjhiZg
 #EXTINF:-1,Sky Sports Racing
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc333/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzMzOjE3ODg4Nzg4MTcxMzQ6Y2RubGl2ZXR2LnR2OjczNjc1NjQ4NzQyYmY3ZTQuZDk2OTk2NDM1MTk0OWIxOTg1YmM3NzMyZjZiY2I0ZjM0ZjIwYjc0ZDNlM2Q1YzkwOTI0YzdhMWRkOTYyNDMwMQ
@@ -837,7 +837,7 @@ https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Ftvsen6.aynaott.com
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Fd7z3qjdsxbwoq.cloudfront.net%2Fgroupa%2Flive%2Ff9809cea-1e07-47cd-a94d-2ddd3e1351db%2Flive.isml%2F.m3u8
 #EXTINF:-1,CTV
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=http%3A%2F%2Fstream.cammonitorplus.net%2F1712%2Findex.m3u8
-#EXTINF:-1,CTV 2 Atlantic
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/cc/ctv-2-ca.png",CTV 2 Atlantic
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=http%3A%2F%2Fstream.cammonitorplus.net%2F1731%2Findex.m3u8
 #EXTINF:-1,CTV Life Channel
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=http%3A%2F%2F185.246.209.113%2FANIMALPLANETHD%2Findex.m3u8
@@ -1187,7 +1187,7 @@ https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Fhlspackager.akamai
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=http%3A%2F%2F41.205.93.154%2FAMC%2Findex.m3u8
 #EXTINF:-1,AMC en Espanol
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Fpb-fmbyorn1d0n1n.akamaized.net%2Fv1%2Famc_amcespanol_3%2Fsamsungheadend_us%2Flatest%2Fmain%2Fhls%2Fplaylist.m3u8
-#EXTINF:-1,AMC Latin America
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/aa/amc-us.png",AMC Latin America
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=http%3A%2F%2F15.204.246.24%3A8080%2FAMCHD%2Findex.m3u8
 #EXTINF:-1,America's Next Top Model
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Fjmp2.uk%2Fplu-68679fc6bb46d0bdd38ac9a4.m3u8
@@ -2015,7 +2015,7 @@ https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Flivechannel.mdc.ak
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2F2-fss-1.streamhoster.com%2Fpl_122%2F200562-1176456-1%2Fplaylist.m3u8
 #EXTINF:-1,Golazo Network
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Fjmp2.uk%2Fplu-63a0e33a45264d000850ed7e.m3u8
-#EXTINF:-1,Golf Channel Latin America
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/gg/golf-channel-latin-america-us.svg",Golf Channel Latin America
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=http%3A%2F%2F15.204.246.24%3A8080%2FGolfChannelHD%2Findex.m3u8
 #EXTINF:-1,GolTV Latin America
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=http%3A%2F%2F177.234.249.178%3A8888%2FGOLTV%2Findex.m3u8
@@ -2081,11 +2081,11 @@ https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Fcdn3.wowza.com%2F5
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Fcustomer-6itfaqopbksp5p0q.cloudflarestream.com%2F3972e89fb79bf6d6dd2a16c75455087a%2Fmanifest%2Fvideo.m3u8
 #EXTINF:-1,History
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=http%3A%2F%2F212.5.144.156%3A8080%2Fhistory%2Findex.m3u8
-#EXTINF:-1,History 2 Latin America
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/hh/history-2-canada-us-ca.svg",History 2 Latin America
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=http%3A%2F%2F138.121.15.230%3A9002%2FHISTORY-2%2Findex.m3u8
-#EXTINF:-1,History Asia
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/hh/history-us.svg",History Asia
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Ffreem3u.xyz%2Fapi%2Flive%2Fplay.m3u8%3Fvid%3D9856
-#EXTINF:-1,History Latin America
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/hh/history-us.svg",History Latin America
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=http%3A%2F%2F15.204.246.24%3A8080%2FHistoryHD%2Findex.m3u8
 #EXTINF:-1,HKTV
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Freflect-hktv.cablecast.tv%2Flive-3%2Flive%2Flive.m3u8
@@ -2107,9 +2107,9 @@ https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Fall3media-homes-un
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Fjmp2.uk%2Fplu-619e21b213ef6b0007d8c17a.m3u8
 #EXTINF:-1,Hope Channel Inter-America
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Fjstre.am%2Flive%2Fjsl%3AEC0Mq0i6HJU.m3u8
-#EXTINF:-1,Hope Channel Inter-America English
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/hh/hope-channel-inter-america-us.svg",Hope Channel Inter-America English
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Fjstre.am%2Flive%2Fjsl%3AUP9KAdlVrm8.m3u8
-#EXTINF:-1,Hope Channel International
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/hh/hope_channel_international.png",Hope Channel International
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Fjstre.am%2Flive%2Fjsl%3AcZXINbwrFj6.m3u8
 #EXTINF:-1,Hope Channel North America
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Fjstre.am%2Flive%2Fjsl%3A0sUSK6VA7GT.m3u8
@@ -2167,7 +2167,7 @@ https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Fjmp2.uk%2Fplu-5dcd
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Fcdn-uw2-prod.tsv2.amagi.tv%2Flinear%2Famg01438-ewscrippscompan-ionplus-tablo%2Fplaylist.m3u8
 #EXTINF:-1,ION TV
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Fpb-xhb3ic8b61whm.akamaized.net%2FIon_US.m3u8
-#EXTINF:-1,Iran National Revolution TV
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/ii/iran-national-revolution-tv-us.png",Iran National Revolution TV
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Fhls.irannrtv.live%2Fhls%2Fstream.m3u8
 #EXTINF:-1,Iron Chef
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Fjmp2.uk%2Fplu-6582f8dadfed030008e5a93d.m3u8
@@ -2317,9 +2317,9 @@ https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Fcdn3.wowza.com%2F5
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Flivestream.telvue.com%2Flexmedia3%2Ff7b44cfafd5c52223d5498196c8a2e7b.sdp%2Flexmedia3%2Fstream1%2Fplaylist.m3u8
 #EXTINF:-1,Lifetime
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=http%3A%2F%2F41.205.93.154%2FLIFETIME%2Findex.m3u8
-#EXTINF:-1,Lifetime Asia
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/ll/lifetime-us.png",Lifetime Asia
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=http%3A%2F%2Fnmk.ioapk.com%3A5050%2F4gtv-live029%2Findex.m3u8
-#EXTINF:-1,Lifetime Latin America
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/ll/lifetime-us.png",Lifetime Latin America
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=http%3A%2F%2F138.121.15.230%3A9002%2FLIFETIME%2Findex.m3u8
 #EXTINF:-1,LifevisionTV
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Ftgn.bozztv.com%2Flifevision%2Flifevision%2Findex.m3u8
@@ -2573,7 +2573,7 @@ https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Flivestream.telvue.
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=http%3A%2F%2F212.5.144.156%3A8080%2Fnatgeo%2Findex.m3u8
 #EXTINF:-1,National Geographic Latin America
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=http%3A%2F%2F15.204.246.24%3A8080%2FNatGeoHD%2Findex.m3u8
-#EXTINF:-1,National Geographic Wild
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/nn/national-geographic-wild-us.svg",National Geographic Wild
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=http%3A%2F%2F198.58.104.90%3A8989%2Fnatgeowild%2Findex.m3u8
 #EXTINF:-1,National Iranian Congress TV
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Ftv.iraniancongress.com%2Fstream%2Ftv.m3u8
@@ -2701,7 +2701,7 @@ https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Fstirr.b-cdn.net%2F
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Flivestream.telvue.com%2Fogat1%2Ff7b44cfafd5c52223d5498196c8a2e7b.sdp%2Fplaylist.m3u8
 #EXTINF:-1,Outdoor America
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Fd1e354daam8g5r.cloudfront.net%2Fplaylist.m3u8
-#EXTINF:-1,Outdoor Channel
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/oo/outdoor-channel-us.png",Outdoor Channel
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Famg00718-outdoorchannela-outdoortv-samsungau-uc7mp.amagi.tv%2Fplaylist%2Famg00718-outdoorchannela-outdoortv-samsungau%2Fplaylist.m3u8
 #EXTINF:-1,OuterSphere
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Fd3o593mz1glx8d.cloudfront.net%2FOuterSphere_US.m3u8
@@ -3053,7 +3053,7 @@ https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Freflect-broadcast-
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Fcdn3.wowza.com%2F5%2FUWpORHhLSEs5SkJs%2Fpsl%2FG0262_003%2Fplaylist.m3u8
 #EXTINF:-1,PTL TV Network
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Fstorage.sardius.media%2Farchives%2F-KyMV-J0vDqnClcSXs8p%2Fevents%2Fsite_1a4721d3BA%2Fplaylist.m3u8
-#EXTINF:-1,Pursuit Channel
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/pp/pursuit-channel-us.png",Pursuit Channel
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Fa-cdn.klowdtv.com%2Flive3%2Fpursuit_720p%2Fplaylist.m3u8
 #EXTINF:-1,PursuitUP
 https://rdnutz-proxy.robbdeeze.workers.dev/?url=https%3A%2F%2Fd1p1siomv3cm7b.cloudfront.net%2Fplaylist.m3u8
