@@ -15,9 +15,21 @@ def process_meta_task(task):
         streams = res.get("streams", [])
         for stream in streams:
             url = stream.get("url")
-            title = stream.get("title", "")
+            raw_title = stream.get("title", "")
             if url:
-                channel_label = f"{name} - {title}".strip(" -") if title else name
+                # Clean up line breaks in stream title
+                title_clean = raw_title.replace("\n", " ").strip() if raw_title else ""
+                
+                # Deduplicate name logic
+                if not title_clean or name.lower() == title_clean.lower():
+                    channel_label = name
+                elif name.lower() in title_clean.lower():
+                    channel_label = title_clean
+                elif title_clean.lower() in name.lower():
+                    channel_label = name
+                else:
+                    channel_label = f"{name} - {title_clean}"
+
                 found.append((channel_label, url))
     except Exception:
         pass
@@ -41,7 +53,7 @@ def get_stremio_streams():
                 metas = cat_res.get("metas", [])
                 for meta in metas:
                     item_id = meta.get("id")
-                    name = meta.get("name", "Unknown Channel")
+                    name = meta.get("name", "Unknown Channel").strip()
                     tasks.append((cat_type, item_id, name, cat_name))
             except Exception as e:
                 print(f"Failed catalog fetch for {cat_id}: {e}")
@@ -59,7 +71,7 @@ def get_stremio_streams():
     return streams_found
 
 def main():
-    print("Extracting ALL live channels from tenies.space / live-addon...")
+    print("Extracting channels with cleaned single names...")
     valid_entries = get_stremio_streams()
     
     # Deduplicate by URL
@@ -75,7 +87,7 @@ def main():
         for name, url in unique_entries:
             f.write(f"#EXTINF:-1,{name}\n{url}\n")
             
-    print(f"Done! Successfully extracted {len(unique_entries)} channels into {OUTPUT_FILE}.")
+    print(f"Done! Cleaned and saved {len(unique_entries)} unique channels to {OUTPUT_FILE}.")
 
 if __name__ == "__main__":
     main()
