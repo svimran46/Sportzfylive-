@@ -3,13 +3,14 @@ import concurrent.futures
 
 ADDON_BASES = [
     "https://nuvio.moaqeel6679.my.id",
-    "https://sportvibe.win/api/addon/80635bf20325521359ef7cac40a90ffb2842ddb752ad29db40849fe968bee7a6"
+    "https://sportvibe.win/api/addon/80635bf20325521359ef7cac40a90ffb2842ddb752ad29db40849fe968bee7a6",
+    "https://meufutebol.oneplayhd.com"
 ]
 OUTPUT_FILE = "nuvio_playlist.m3u"
 MAX_WORKERS = 30
 HEADERS = {'User-Agent': 'Mozilla/5.0'}
 
-# Standard exclusions to keep the list focused on live channels/sports
+# Standard exclusions to keep the playlist focused on live sports and channels
 EXCLUDE_KEYWORDS = [
     "news", "movie", "adult", "politic", "music", 
     "kids", "family", "trailer", "smutt", "gore", 
@@ -97,7 +98,7 @@ def get_stremio_streams():
     return streams_found
 
 def main():
-    print("Starting multi-source Nuvio/SportVibe channel extraction...")
+    print("Starting multi-source extraction (Nuvio, SportVibe, MeuFutebol)...")
     valid_entries = get_stremio_streams()
     
     seen = set()
