@@ -1,8 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="PPV.EVENTS.Dummy.us" tvg-name="Live Event" tvg-logo="https://i.ibb.co/jpdQCJL/live-event.png" group-title="Live Events",Live Event 04
 https://xemzi.short.gy/ppv5
-#EXTINF:-1 tvg-id="PPV.EVENTS.Dummy.us" tvg-name="Live Event" tvg-logo="https://i.ibb.co/jpdQCJL/live-event.png" group-title="Live Events",Live Event 08
-https://xemzi.short.gy/ppv8
 #EXTINF:-1 tvg-id="V.Sport.Ultra.HD.se" tvg-name="SE: V Sport Ultra HD" tvg-logo="https://i.ibb.co/mVWdZyRH/V-sport-ultra-hd.png" group-title="UHD | 4K",SE: V Sport Ultra HD
 https://xemzi.short.gy/9000013
 #EXTINF:-1 tvg-id="New.England.Sports.Network.HD.us2" tvg-name="US: NESN UHD" tvg-logo="https://i.postimg.cc/CxVDbJrS/nesn.png" group-title="UHD | 4K",US: NESN UHD
@@ -123,8 +121,6 @@ https://wiselp.wiseplayout.com/9X_Jalwa/master.m3u8
 https://wiselp.wiseplayout.com/9X_Jhakaas/master.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Channel S TV
 https://app.ncare.live/live-orgin/channels.stream/live-orgin/channels.stream/chunks.m3u8
-#EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Jago News 24
-https://app.ncare.live/live-orgin/jagonews24.stream/live-orgin/jagonews24.stream/chunks.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Movie Bangla
 http://alvetv.com/moviebanglatv/8080/index.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Discovery Hindi B
@@ -207,6 +203,8 @@ http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8
 http://23.237.104.106:8080/DAZN_2/index.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Dazn 3
 http://23.237.104.106:8080/DAZN_3/index.m3u8
+#EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Dazn 4
+http://23.237.104.106:8080/DAZN_4/index.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",DSports (Opción 5)
 http://38.187.7.252:8000/play/a03d/index.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",DSports (Opción 6)
@@ -431,6 +429,8 @@ http://146.59.253.52:8080/hindihitshd/index.m3u8
 https://amg01448-samsungin-cnnnow-samsungin-4npqg.amagi.tv/playlist/amg01448-samsungin-cnnnow-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",DW Naws
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+#EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",France 24
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/fr24.stream/playlist.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",RT Now
 https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Sky News
@@ -1009,6 +1009,8 @@ https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8
 http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/280824.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Sky Sport1 NZ FHD
 http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/579826.m3u8
+#EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Sky Sport2 NZ FHD
+http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/579825.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Sky Sport3 NZ FHD
 http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/579824.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Sky Sport5 NZ FHD
@@ -1365,8 +1367,10 @@ http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/280825.m3u8
 http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/280826.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Sky Sport1 NZ FHD
 http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/579826.m3u8
-#EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Sky Sport2 NZ FHD
-http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/579825.m3u8
+#EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Sky Sport7 NZ FHD
+http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/579820.m3u8
+#EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",sky sport select
+http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/579817.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",beIN SPORTS 1 HD (2)
 http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/510908.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",beIN SPORTS 1 HD (3)
