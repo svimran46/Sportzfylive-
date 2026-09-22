@@ -1,22 +1,12 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="PPV.EVENTS.Dummy.us" tvg-name="Live Event" tvg-logo="https://i.ibb.co/jpdQCJL/live-event.png" group-title="Live Events",Live Event 04
 https://xemzi.short.gy/ppv5
-#EXTINF:-1 tvg-id="PPV.EVENTS.Dummy.us" tvg-name="Live Event" tvg-logo="https://i.ibb.co/jpdQCJL/live-event.png" group-title="Live Events",Live Event 08
-https://xemzi.short.gy/ppv8
 #EXTINF:-1 tvg-id="V.Sport.Ultra.HD.se" tvg-name="SE: V Sport Ultra HD" tvg-logo="https://i.ibb.co/mVWdZyRH/V-sport-ultra-hd.png" group-title="UHD | 4K",SE: V Sport Ultra HD
 https://xemzi.short.gy/9000013
 #EXTINF:-1 tvg-id="New.England.Sports.Network.HD.us2" tvg-name="US: NESN UHD" tvg-logo="https://i.postimg.cc/CxVDbJrS/nesn.png" group-title="UHD | 4K",US: NESN UHD
 https://xemzi.short.gy/4000080
-#EXTINF:-1 tvg-id="Eleven.Sports.1.4K.pl" tvg-name="Eleven Sports 1 4K" tvg-logo="https://i.imgur.com/k6MErsv.png" group-title="UHD | 4K",Eleven Sports 1 4K
-https://xemzi.short.gy/14001
 #EXTINF:-1 tvg-id="Love.Nature.ca2" tvg-name="Love Nature 4K" tvg-logo="https://i.ibb.co/SdSKhsj/love-nature-4k.png" group-title="UHD | 4K",Love Nature 4K
 https://xemzi.short.gy/lovent4k
-#EXTINF:-1 tvg-id="travelxp.4K.de" tvg-name="Travelxp 4K" tvg-logo="https://i.ibb.co/GCKtvqn/Travelxp-4-K.png" group-title="UHD | 4K",Travelxp 4K
-https://xemzi.short.gy/travelxpuhd
-#EXTINF:-1 tvg-id="Museum.4k.ro" tvg-name="MUSEUM TV 4K" tvg-logo="https://i.ibb.co/TDXLDk4y/Museum-4-K.png" group-title="UHD | 4K",MUSEUM TV 4K
-https://xemzi.short.gy/msem4k
-#EXTINF:-1 tvg-id="MyZen.4K.ro" tvg-name="MyZen 4K" tvg-logo="https://i.imgur.com/GDZobhF.png" group-title="UHD | 4K",MyZen 4K (Multi Audio)
-https://xemzi.short.gy/myzen4k
 #EXTINF:-1 tvg-id="USA.Network.HD.us2" tvg-name="USA Network FHD" tvg-logo="https://i.ibb.co/mVwrvxMw/usa-network.png" group-title="EPL",USA Network FHD
 https://xemzi.short.gy/1100020
 #EXTINF:-1 tvg-id="Hub.Premier.1.sg" tvg-name="Hub Premier 1 FHD" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/qoerty1659622111.png" group-title="EPL",Hub Premier 1 FHD
@@ -153,6 +143,8 @@ https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
 https://sm-monirul.top/toffee/play/anandatv.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Bijoy TV
 https://sm-monirul.top/toffee/play/bijoytv.m3u8
+#EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Jago News 24 (2)
+https://app.ncare.live/live-orgin/jagonews24.stream/playlist.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Bangla TV
 https://sm-monirul.top/toffee/play/bangla_tv.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Zee Cinema HD
@@ -213,8 +205,6 @@ http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8
 http://23.237.104.106:8080/DAZN_2/index.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Dazn 3
 http://23.237.104.106:8080/DAZN_3/index.m3u8
-#EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Dazn 4
-http://23.237.104.106:8080/DAZN_4/index.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",DSports (Opción 5)
 http://38.187.7.252:8000/play/a03d/index.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",DSports (Opción 6)
@@ -233,6 +223,8 @@ https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/uiffe4jhf0/
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",CT SPORT HD
 http://88.212.15.19/live/test_ctsport_25p/playlist.m3u8
+#EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",RCN (Colombia) (🇨🇴)
+http://181.78.211.244:8005/play/a0ak/index.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Caracol
 http://181.78.8.199:8000/play/a0b0/index.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",real Madrid TV (2)
@@ -325,6 +317,8 @@ http://45.167.1.136:8000/play/a06d
 http://daleplaytv.vip:80//live/123MMM/654321/361022.ts
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",ESPN 7 (Principal)
 http://181.118.153.15:8000/play/rq26/index.m3u8
+#EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",ESPN 7 HD
+http://daleplaytv.vip:80//live/123MMM/654321/361023.ts
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",ESPN Premium (Backup 2)
 http://daleplaytv.vip:80//live/123MMM/654321/81254.ts
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Sky Sport
@@ -563,8 +557,6 @@ https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/asmita-livetv/master.m3u8
 https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/ganga-livetv/master.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",ABP News (1080p)
 https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/abpnews-livetv/master.m3u8
-#EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",AKD Calcutta News (1080p)
-https://live.legitpro.co.in/cnnnews/index.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",AmarUjala (1080p)
 https://amarujala.ottlive.co.in/amarujala/index.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Bharat24 (1080p)
@@ -753,6 +745,8 @@ https://live.legitpro.co.in/anandtv/index.m3u8
 https://janya-digimix.akamaized.net/vglive-sk-394914/india/ngrp:angelindia_all/playlist.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Channel Divya (1080p)
 https://vg-pitaaratvlive.akamaized.net/v1/vglive-sk-906482/playlist.m3u8
+#EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Dheeran TV (576p)
+https://live.we2live.in/dheerantv/dheerantv/playlist.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Divyavani TV (576p)
 https://mumbai-edge.smartplaytv.in/Divyavani/index.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Fateh TV (1080p) [Not 24/7]
@@ -781,6 +775,8 @@ https://thelegitpro.in/pntv/rplusnews24x7/index.m3u8
 https://server.thelegitpro.in/rongeentv/rongeentv/index.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Shubh TV (1080p)
 https://d2g1vdc6ozl2o8.cloudfront.net/out/v1/0a0dc7d7911b4fddbb4dfc963fdd4b9e/index.m3u8
+#EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Taaza TV (720p)
+https://live.we2live.in/taazatv/live/playlist.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",INFAST (1080p)
 https://amg00861-terninternation-lifestyle-samsungau-kdlyy.amagi.tv/playlist/amg00861-terninternation-lifestyle-samsungau/playlist.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Dangal TV (720p)
@@ -873,8 +869,6 @@ https://tglmp02.akamaized.net/out/v1/1063ebb215c14312ba9d4e415ac706d2/manifest.m
 https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_tapsports.mpd
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",BeIN Sports Xtra
 https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",CricLife-2
-http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/579821.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Quran (2)
 https://vodzong.mjunoon.tv:8087/streamtest/SaudiQuran-142/playlist.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",SUNNAH
@@ -1021,10 +1015,10 @@ http://181.118.156.46:8000/play/a04g/index.m3u8
 http://200.10.30.241:8000/play/a01r/index.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Willow Sports (1080p)
 https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8
-#EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Sky Sport1 NZ FHD
-http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/579826.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Sky Sport2 NZ FHD
 http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/579825.m3u8
+#EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Sky Sport3 NZ FHD
+http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/579824.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Sky Sport5 NZ FHD
 http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/579822.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",beIN SPORTS 4 HD (2)
@@ -1125,12 +1119,8 @@ https://sm-monirul.top/tof/live/toffee4/index.m3u8
 https://sm-monirul.top/tof/live/toffee5/index.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",TOFFEE-🇧🇩-6ᶠᴴᴰ
 https://sm-monirul.top/tof/live/toffee6/index.m3u8
-#EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Zee Bangla Sonar (FIFA BANGLA COMMENTARY)
-http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/277428.ts
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Zee Bangla Sonar (FIFA BANGLA COMMENTARY) (2)
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD.m3u8
-#EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Fox Sports 501 HD
-http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/197185.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",DAZN FAST+
 https://ac-003.live.p7s1video.net/63f8995e/t_003/dazn-fast-hd/cenc-default.mpd
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",AZAN TV
@@ -1369,17 +1359,13 @@ http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/7341/index.m3u8
 http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/6546/index.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",SKY SPORTS TENNIS (2)
 http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/6546/index.m3u8
-#EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Hub Sports 1 HD
-http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/280822.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Hub Sports 2 HD
 http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/280823.m3u8
-#EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Sky Sport2 NZ FHD
-http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/579825.m3u8
-#EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Sky Sport3 NZ FHD
-http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/579824.m3u8
-#EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",sky sport select
-http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/579817.m3u8
-#EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",beIN SPORTS 1 HD (2)
-http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/510908.m3u8
+#EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Hub Sports 3 HD
+http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/280824.m3u8
+#EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Hub Sports 4 HD
+http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/280825.m3u8
+#EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",Sky Sport4 NZ FHD
+http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/579823.m3u8
 #EXTINF:-1 group-title="Uncategorized" tvg-logo="https://imgur.com/79g2kMA.png" tvg-id="",beIN SPORTS 1 HD (3)
 http://ytoxw6un.ottclub.xyz/iptv/VSQZTL9D68WBD9/6123/i
